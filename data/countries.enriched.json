@@ -1,0 +1,4703 @@
+[
+  {
+    "iso3": "ALB",
+    "name": "Albania",
+    "vr_videos": [
+      {
+        "id": "alb-1",
+        "title": "Albania 360°",
+        "youtube_id": "ccKTXpQBs6Q",
+        "lat": 41.3275,
+        "lng": 19.8187,
+        "location_label": "Tirana"
+      }
+    ],
+    "facts": {
+      "iso2": "AL",
+      "capital": "Tirana",
+      "population_millions": 2.4,
+      "region": "Southeast Europe",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Skanderbeg_square_tirana_2016.jpg/960px-Skanderbeg_square_tirana_2016.jpg",
+      "flag_svg": "https://flagcdn.com/al.svg",
+      "flag_png": "https://flagcdn.com/w320/al.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.504,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 2502,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "DZA",
+    "name": "Algeria",
+    "vr_videos": [
+      {
+        "id": "dza-1",
+        "title": "Algeria 360°",
+        "youtube_id": "RdFkC6Gtb5A",
+        "lat": 36.7538,
+        "lng": 3.0588,
+        "location_label": "Algiers"
+      }
+    ],
+    "facts": {
+      "iso2": "DZ",
+      "capital": "Algiers",
+      "population_millions": 47.4,
+      "region": "Northern Africa",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Botanical_Garden_Hamma.jpg/960px-Botanical_Garden_Hamma.jpg",
+      "flag_svg": "https://flagcdn.com/dz.svg",
+      "flag_png": "https://flagcdn.com/w320/dz.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.055,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 22020,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "ARG",
+    "name": "Argentina",
+    "vr_videos": [
+      {
+        "id": "arg-1",
+        "title": "Argentina 360°",
+        "youtube_id": "SjQrqrYf7rE",
+        "lat": -34.6037,
+        "lng": -58.3816,
+        "location_label": "Buenos Aires"
+      },
+      {
+        "id": "arg-2",
+        "title": "Argentina 360°",
+        "youtube_id": "4w-ihdBiVdQ"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "arg-tourism-economy",
+        "title": "Tourism And Economy (Argentina)",
+        "tag": "Tourism • Economy ",
+        "primary_stat": {
+          "label": "International tourism, number of arrivals",
+          "worldbank_indicator": "ST.INT.ARVL"
+        },
+        "why_related": "Tourism arrivals and GDP help you connect what you see in VR (popular neighborhoods, nature sites, city centers) to tourism’s role in economic activity.",
+        "video_connection": {
+          "label": "Video connection",
+          "value": "tourist areas + city landmarks",
+          "note": "what you see in VR"
+        },
+        "source_url": "https://data.worldbank.org/indicator/ST.INT.ARVL?locations=AR"
+      }
+    ],
+    "facts": {
+      "iso2": "AR",
+      "capital": "Buenos Aires",
+      "population_millions": 46.7,
+      "region": "South America",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Avenida_9_de_Julio%2C_Buenos_Aires_%2840089810910%29.jpg/960px-Avenida_9_de_Julio%2C_Buenos_Aires_%2840089810910%29.jpg",
+      "flag_svg": "https://flagcdn.com/ar.svg",
+      "flag_png": "https://flagcdn.com/w320/ar.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.275,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 215940,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "ARM",
+    "name": "Armenia",
+    "vr_videos": [
+      {
+        "id": "arm-1",
+        "title": "Armenia 360°",
+        "youtube_id": "wQf-18tWHF0"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "arg-tourism-economy",
+        "title": "Tourism And Economy (Armenia)",
+        "tag": "Tourism • Economy ",
+        "primary_stat": {
+          "label": "International tourism, number of arrivals",
+          "worldbank_indicator": "ST.INT.ARVL"
+        },
+        "why_related": "Tourism arrivals and GDP help you connect what you see in VR (popular neighborhoods, nature sites, city centers) to tourism’s role in economic activity.",
+        "video_connection": {
+          "label": "Video connection",
+          "value": "tourist areas + city landmarks",
+          "note": "what you see in VR"
+        },
+        "source_url": "https://data.worldbank.org/indicator/ST.INT.ARVL?locations=ARM"
+      }
+    ],
+    "facts": {
+      "iso2": "AM",
+      "capital": "Yerevan",
+      "population_millions": 3.1,
+      "region": "Western Asia",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Mount_Ararat_and_the_Yerevan_skyline_%28June_2018%29.jpg/960px-Mount_Ararat_and_the_Yerevan_skyline_%28June_2018%29.jpg",
+      "flag_svg": "https://flagcdn.com/am.svg",
+      "flag_png": "https://flagcdn.com/w320/am.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.177,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "AUS",
+    "name": "Australia",
+    "vr_videos": [
+      {
+        "id": "aus-1",
+        "title": "Australia 360°",
+        "youtube_id": "ZXgnOBFdl7E",
+        "lat": -33.8688,
+        "lng": 151.2093,
+        "location_label": "Sydney"
+      },
+      {
+        "id": "aus-2",
+        "title": "Australia 360°",
+        "youtube_id": "UpeWY3Ucicw"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "aus-renewable-energy",
+        "title": "Renewable Energy Consumption (Australia)",
+        "tag": "Energy • Climate • Sustainability ",
+        "primary_stat": {
+          "label": "Renewable energy consumption (% of total final energy consumption)",
+          "worldbank_indicator": "EG.FEC.RNEW.ZS"
+        },
+        "why_related": "Renewable energy use reflects Australia's transition toward sustainable energy systems amid climate challenges.",
+        "video_connection": {
+          "label": "VR connection",
+          "value": "Coastlines, natural landscapes, cities",
+          "note": "Energy transition linked to environmental preservation"
+        },
+        "source_url": "https://data.worldbank.org/indicator/EG.FEC.RNEW.ZS?locations=AU"
+      }
+    ],
+    "facts": {
+      "iso2": "AU",
+      "capital": "Canberra",
+      "population_millions": 27.5,
+      "region": "Australia and New Zealand",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Canberra_panorama_from_Mount_Ainslie.jpg/960px-Canberra_panorama_from_Mount_Ainslie.jpg",
+      "flag_svg": "https://flagcdn.com/au.svg",
+      "flag_png": "https://flagcdn.com/w320/au.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.295,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 190715,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "AUT",
+    "name": "Austria",
+    "vr_videos": [
+      {
+        "id": "aut-1",
+        "title": "Austria 360°",
+        "youtube_id": "IIT8vYwGjAg"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "aut-urban-pop",
+        "title": "Urban population",
+        "tag": "Urban",
+        "primary_stat": {
+          "label": "Urban population (total)",
+          "worldbank_indicator": "SP.URB.TOTL"
+        },
+        "secondary_stat": {
+          "label": "Urban population (% of total)",
+          "worldbank_indicator": "SP.URB.TOTL.IN.ZS"
+        },
+        "video_connection": {
+          "label": "Video connection",
+          "value": "big-city streets + skyline",
+          "note": "what you see in VR"
+        },
+        "why_related": "The VR video shows dense city life, and urban population data helps explain why traffic, housing demand, and city services become major challenges.",
+        "source_url": "https://data.worldbank.org/indicator/SP.URB.TOTL?locations=AUT"
+      }
+    ],
+    "facts": {
+      "iso2": "AT",
+      "capital": "Vienna",
+      "population_millions": 9.2,
+      "region": "Central Europe",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Schoenbrunn_philharmoniker_2012.jpg/960px-Schoenbrunn_philharmoniker_2012.jpg",
+      "flag_svg": "https://flagcdn.com/at.svg",
+      "flag_png": "https://flagcdn.com/w320/at.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.093,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 26516,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "AZE",
+    "name": "Azerbaijan",
+    "vr_videos": [
+      {
+        "id": "aze-1",
+        "title": "Azerbaijan 360°",
+        "youtube_id": "zUX4-ZTGESQ"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "aze-tourism-economy",
+        "title": "Tourism And Economy (Azerbaijan)",
+        "tag": "Tourism • Economy ",
+        "primary_stat": {
+          "label": "International tourism, number of arrivals",
+          "worldbank_indicator": "ST.INT.ARVL"
+        },
+        "why_related": "Tourism arrivals and GDP help you connect what you see in VR (popular neighborhoods, nature sites, city centers) to tourism’s role in economic activity.",
+        "video_connection": {
+          "label": "Video connection",
+          "value": "tourist areas + city landmarks",
+          "note": "what you see in VR"
+        },
+        "source_url": "https://data.worldbank.org/indicator/ST.INT.ARVL?locations=AZE"
+      }
+    ],
+    "facts": {
+      "iso2": "AZ",
+      "capital": "Baku",
+      "population_millions": 10.2,
+      "region": "Western Asia",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Baku_Montage.jpg/960px-Baku_Montage.jpg",
+      "flag_svg": "https://flagcdn.com/az.svg",
+      "flag_png": "https://flagcdn.com/w320/az.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.289,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 461,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "BHR",
+    "name": "Bahrain",
+    "vr_videos": [
+      {
+        "id": "bhr-1",
+        "title": "Bahrain 360°",
+        "youtube_id": "in22I_G2nj8",
+        "lat": 26.2285,
+        "lng": 50.586,
+        "location_label": "Manama"
+      }
+    ],
+    "facts": {
+      "iso2": "BH",
+      "capital": "Manama",
+      "population_millions": 1.6,
+      "region": "Western Asia",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Manama%2C_Bahrain_Decembre_2014.jpg/960px-Manama%2C_Bahrain_Decembre_2014.jpg",
+      "flag_svg": "https://flagcdn.com/bh.svg",
+      "flag_png": "https://flagcdn.com/w320/bh.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.295,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "BLR",
+    "name": "Belarus",
+    "vr_videos": [
+      {
+        "id": "blr-1",
+        "title": "Belarus 360°",
+        "youtube_id": "9HIq8MH8_HQ"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "blr-urban-air-pm25",
+        "title": "Urban Air Pollution (Belarus)",
+        "tag": "Air • Urban ",
+        "primary_stat": {
+          "label": "PM2.5 air pollution, mean annual exposure (µg/m³)",
+          "worldbank_indicator": "EN.ATM.PM25.MC.M3"
+        },
+        "why_related": "Many VR clips show busy roads and dense neighborhoods-PM2.5 exposure helps explain the health impact of traffic, industry, and city growth.",
+        "video_connection": {
+          "label": "Video connection",
+          "value": "traffic + dense urban streets",
+          "note": "what you see in VR"
+        },
+        "source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=BLR"
+      }
+    ],
+    "facts": {
+      "iso2": "BY",
+      "capital": "Minsk",
+      "population_millions": 9.1,
+      "region": "Eastern Europe",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/View_of_Minsk_%28180819%29_09.jpg/960px-View_of_Minsk_%28180819%29_09.jpg",
+      "flag_svg": "https://flagcdn.com/by.svg",
+      "flag_png": "https://flagcdn.com/w320/by.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.512,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 59233,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "BEL",
+    "name": "Belgium",
+    "vr_videos": [
+      {
+        "id": "bel-1",
+        "title": "Belgium 360°",
+        "youtube_id": "yW7eAAaijRc",
+        "lat": 50.8503,
+        "lng": 4.3517,
+        "location_label": "Brussels"
+      }
+    ],
+    "facts": {
+      "iso2": "BE",
+      "capital": "Brussels",
+      "population_millions": 11.8,
+      "region": "Western Europe",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Grand_Place_Bruselas_2.jpg/960px-Grand_Place_Bruselas_2.jpg",
+      "flag_svg": "https://flagcdn.com/be.svg",
+      "flag_png": "https://flagcdn.com/w320/be.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.113,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 7579,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "BLZ",
+    "name": "Belize",
+    "vr_videos": [
+      {
+        "id": "blz-1",
+        "title": "Belize 360°",
+        "youtube_id": "d60JMVkzlJ8"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "blz-tourism-economy",
+        "title": "Tourism And Economy (Belize)",
+        "tag": "Tourism • Economy ",
+        "primary_stat": {
+          "label": "International tourism, number of arrivals",
+          "worldbank_indicator": "ST.INT.ARVL"
+        },
+        "why_related": "Tourism arrivals and GDP help you connect what you see in VR (popular neighborhoods, nature sites, city centers) to tourism’s role in economic activity.",
+        "video_connection": {
+          "label": "Video connection",
+          "value": "tourist areas + city landmarks",
+          "note": "what you see in VR"
+        },
+        "source_url": "https://data.worldbank.org/indicator/ST.INT.ARVL?locations=BLZ"
+      }
+    ],
+    "facts": {
+      "iso2": "BZ",
+      "capital": "Belmopan",
+      "population_millions": 0.4,
+      "region": "Central America",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/National_Assembly_Building%2C_Belize.png/960px-National_Assembly_Building%2C_Belize.png",
+      "flag_svg": "https://flagcdn.com/bz.svg",
+      "flag_png": "https://flagcdn.com/w320/bz.png",
+      "metrics": {
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 22574,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "BRA",
+    "name": "Brazil",
+    "vr_videos": [
+      {
+        "id": "bra-1",
+        "title": "Brazil 360°",
+        "youtube_id": "ygOWzNmdCQQ"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "bra-deforestation-forest-area",
+        "title": "Deforestation Trends (Brazil)",
+        "tag": "Environment • Forest ",
+        "primary_stat": {
+          "label": "Forest area (% of land area)",
+          "worldbank_indicator": "AG.LND.FRST.ZS"
+        },
+        "why_related": "Deforestation changes forest cover and can increase emissions. Pairing forest area with CO2 helps connect what you see in VR to land-use change impacts.",
+        "video_connection": {
+          "label": "Video connection",
+          "value": "forests + land-use scenes",
+          "note": "what you see in VR"
+        },
+        "source_url": "https://data.worldbank.org/indicator/AG.LND.FRST.ZS?locations=BR"
+      }
+    ],
+    "facts": {
+      "iso2": "BR",
+      "capital": "Brasília",
+      "population_millions": 213.4,
+      "region": "South America",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Planalto_Central_%28cropped%29.jpg/960px-Planalto_Central_%28cropped%29.jpg",
+      "flag_svg": "https://flagcdn.com/br.svg",
+      "flag_png": "https://flagcdn.com/w320/br.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.396,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 2805356,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "BGR",
+    "name": "Bulgaria",
+    "vr_videos": [
+      {
+        "id": "bgr-1",
+        "title": "Bulgaria 360°",
+        "youtube_id": "tijyPFux7jw",
+        "lat": 42.6977,
+        "lng": 23.3219,
+        "location_label": "Sofia"
+      },
+      {
+        "id": "bgr-2",
+        "title": "Bulgaria 360°",
+        "youtube_id": "lR7ONN0i-nQ"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "bgr-co2-emissions",
+        "title": "CO₂ Emissions Per Capita (Bulgaria)",
+        "tag": "Climate • Environment • Energy ",
+        "primary_stat": {
+          "label": "Renewable energy consumption (% of total final energy consumption)",
+          "worldbank_indicator": "EG.FEC.RNEW.ZS"
+        },
+        "why_related": "CO₂ emissions per capita reflect Bulgaria’s environmental footprint and energy structure, providing climate context to urban and natural landscapes seen in VR.",
+        "video_connection": {
+          "label": "VR connection",
+          "value": "Cities, mountains, infrastructure",
+          "note": "Environmental impact tied to development and energy use"
+        },
+        "source_url": "https://data.worldbank.org/indicator/EN.ATM.CO2E.PC?locations=BG"
+      }
+    ],
+    "facts": {
+      "iso2": "BG",
+      "capital": "Sofia",
+      "population_millions": 6.4,
+      "region": "Southeast Europe",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Russian_church_%2837591925970%29.jpg/960px-Russian_church_%2837591925970%29.jpg",
+      "flag_svg": "https://flagcdn.com/bg.svg",
+      "flag_png": "https://flagcdn.com/w320/bg.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.252,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 5653,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "BFA",
+    "name": "Burkina Faso",
+    "vr_videos": [
+      {
+        "id": "bfa-1",
+        "title": "Burkina Faso 360°",
+        "youtube_id": "Xz_fesNQkGM"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "bfa-rural-population",
+        "title": "Rural Population And Daily Life (Burkina Faso)",
+        "tag": "Rural • Population ",
+        "primary_stat": {
+          "label": "Rural population (% of total population)",
+          "worldbank_indicator": "SP.RUR.TOTL.ZS"
+        },
+        "why_related": "Much of Burkina Faso’s population lives in rural areas where agriculture and village activities shape daily life. Rural population data helps explain the social and economic context behind the village scenes shown in the VR video.",
+        "video_connection": {
+          "label": "Video connection",
+          "value": "village life + daily activities",
+          "note": "what you see in VR"
+        },
+        "source_url": "https://data.worldbank.org/indicator/SP.RUR.TOTL.ZS?locations=BF"
+      }
+    ],
+    "facts": {
+      "iso2": "BF",
+      "capital": "Ouagadougou",
+      "population_millions": 24.1,
+      "region": "Western Africa",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/OUAGADOUGOU3.JPG/960px-OUAGADOUGOU3.JPG",
+      "flag_svg": "https://flagcdn.com/bf.svg",
+      "flag_png": "https://flagcdn.com/w320/bf.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 3.959,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 0,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "CPV",
+    "name": "Cabo Verde",
+    "vr_videos": [
+      {
+        "id": "cpv-1",
+        "title": "Cabo Verde 360°",
+        "youtube_id": "qruaA3qzxTs",
+        "lat": 14.933,
+        "lng": -23.5133,
+        "location_label": "Praia"
+      }
+    ],
+    "facts": {
+      "iso2": "CV",
+      "capital": "Praia",
+      "population_millions": 0.5,
+      "region": "Western Africa",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Pal%C3%A1cio_da_Cultura%2C_Praia%2C_Cape_Verde.jpg/960px-Pal%C3%A1cio_da_Cultura%2C_Praia%2C_Cape_Verde.jpg",
+      "flag_svg": "https://flagcdn.com/cv.svg",
+      "flag_png": "https://flagcdn.com/w320/cv.png",
+      "metrics": {}
+    }
+  },
+  {
+    "iso3": "KHM",
+    "name": "Cambodia",
+    "vr_videos": [
+      {
+        "id": "khm-1",
+        "title": "Cambodia 360°",
+        "youtube_id": "ALbBqVHOqsQ"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "khm-tourism-cultural-sites",
+        "title": "Tourism And Cultural Heritage (Cambodia)",
+        "tag": "Tourism • Culture • Economy ",
+        "primary_stat": {
+          "label": "International tourism, number of arrivals",
+          "worldbank_indicator": "ST.INT.ARVL"
+        },
+        "why_related": "Historic religious monuments like temples and heritage sites attract international visitors. Tourism arrival data helps explain how cultural landmarks contribute to Cambodia’s economy and global visibility.",
+        "video_connection": {
+          "label": "Video connection",
+          "value": "temples + religious monuments",
+          "note": "what you see in VR"
+        },
+        "source_url": "https://data.worldbank.org/indicator/ST.INT.ARVL?locations=KH"
+      }
+    ],
+    "facts": {
+      "iso2": "KH",
+      "capital": "Phnom Penh",
+      "population_millions": 17.6,
+      "region": "South-Eastern Asia",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Phnom_Penh_skyline_from_TK_district_Dec_2024.jpg/960px-Phnom_Penh_skyline_from_TK_district_Dec_2024.jpg",
+      "flag_svg": "https://flagcdn.com/kh.svg",
+      "flag_png": "https://flagcdn.com/w320/kh.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.937,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 120846,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "CAN",
+    "name": "Canada",
+    "vr_videos": [
+      {
+        "id": "can-1",
+        "title": "Canada 360°",
+        "youtube_id": "vsVqzWYetR0"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "can-tourism-natural-sites",
+        "title": "Tourism And Natural Landmarks (Canada)",
+        "tag": "Tourism • Nature • Economy ",
+        "primary_stat": {
+          "label": "International tourism, number of arrivals",
+          "worldbank_indicator": "ST.INT.ARVL"
+        },
+        "why_related": "Natural landmarks like Niagara Falls attract millions of visitors each year. Tourism data helps explain how famous natural sites contribute to Canada’s economy and global tourism industry.",
+        "video_connection": {
+          "label": "Video connection",
+          "value": "waterfalls + natural landscape",
+          "note": "what you see in VR"
+        },
+        "source_url": "https://data.worldbank.org/indicator/ST.INT.ARVL?locations=CA"
+      }
+    ],
+    "facts": {
+      "iso2": "CA",
+      "capital": "Ottawa",
+      "population_millions": 41.7,
+      "region": "North America",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Parliament-Ottawa.jpg/960px-Parliament-Ottawa.jpg",
+      "flag_svg": "https://flagcdn.com/ca.svg",
+      "flag_png": "https://flagcdn.com/w320/ca.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.066,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 8570165,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "CHL",
+    "name": "Chile",
+    "vr_videos": [
+      {
+        "id": "chl-1",
+        "title": "Chile 360°",
+        "youtube_id": "aJp0vFyQ0BI",
+        "lat": -33.4489,
+        "lng": -70.6693,
+        "location_label": "Santiago"
+      }
+    ],
+    "facts": {
+      "iso2": "CL",
+      "capital": "Santiago",
+      "population_millions": 20.2,
+      "region": "South America",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Palacio_de_La_Moneda_-_miguelreflex.jpg/960px-Palacio_de_La_Moneda_-_miguelreflex.jpg",
+      "flag_svg": "https://flagcdn.com/cl.svg",
+      "flag_png": "https://flagcdn.com/w320/cl.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.504,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 107338,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "CHN",
+    "name": "China",
+    "vr_videos": [
+      {
+        "id": "chn-1",
+        "title": "China 360°",
+        "youtube_id": "IfnO4tEdkpo"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "chn-urban-population",
+        "title": "Urban Population Growth (China)",
+        "tag": "Urban • Population ",
+        "primary_stat": {
+          "label": "Urban population (total)",
+          "worldbank_indicator": "SP.URB.TOTL"
+        },
+        "secondary_stat": {
+          "label": "Urban population (% of total)",
+          "worldbank_indicator": "SP.URB.TOTL.IN.ZS"
+        },
+        "why_related": "China has experienced massive urban growth over the past few decades. Urban population data helps explain the scale of city expansion, high-rise construction, and dense urban life visible in the VR video.",
+        "video_connection": {
+          "label": "Video connection",
+          "value": "city skyline + pedestrians + dense buildings",
+          "note": "what you see in VR"
+        },
+        "source_url": "https://data.worldbank.org/indicator/SP.URB.TOTL?locations=CN"
+      }
+    ],
+    "facts": {
+      "iso2": "CN",
+      "capital": "Beijing",
+      "population_millions": 1408.3,
+      "region": "Eastern Asia",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Skyline_of_Beijing_CBD_from_the_southeast_%2820210907094201%29.jpg/960px-Skyline_of_Beijing_CBD_from_the_southeast_%2820210907094201%29.jpg",
+      "flag_svg": "https://flagcdn.com/cn.svg",
+      "flag_png": "https://flagcdn.com/w320/cn.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.149,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 602763,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "COL",
+    "name": "Colombia",
+    "vr_videos": [
+      {
+        "id": "col-1",
+        "title": "Colombia 360°",
+        "youtube_id": "Y0IYxc0HQ1E"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "col-urban-population",
+        "title": "Urban Population (Colombia)",
+        "tag": "Urban • Population ",
+        "primary_stat": {
+          "label": "Urban population (total)",
+          "worldbank_indicator": "SP.URB.TOTL"
+        },
+        "secondary_stat": {
+          "label": "Urban population (% of total)",
+          "worldbank_indicator": "SP.URB.TOTL.IN.ZS"
+        },
+        "why_related": "The historic center of Bogotá reflects the growth and development of Colombia’s cities. Urban population data helps explain how expanding populations shape city infrastructure, transportation, and public spaces.",
+        "video_connection": {
+          "label": "Video connection",
+          "value": "historic city center + streets + urban architecture",
+          "note": "what you see in VR"
+        },
+        "source_url": "https://data.worldbank.org/indicator/SP.URB.TOTL?locations=CO"
+      }
+    ],
+    "facts": {
+      "iso2": "CO",
+      "capital": "Bogotá",
+      "population_millions": 53.1,
+      "region": "South America",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bogota%2C_Colombia_%2836668708290%29.jpg/960px-Bogota%2C_Colombia_%2836668708290%29.jpg",
+      "flag_svg": "https://flagcdn.com/co.svg",
+      "flag_png": "https://flagcdn.com/w320/co.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.587,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 196634,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "COG",
+    "name": "Congo",
+    "vr_videos": [
+      {
+        "id": "cog-1",
+        "title": "Congo 360°",
+        "youtube_id": "Mwns3S-kSSA"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "cog-natural-resource-rents",
+        "title": "Natural Resource Dependence (Congo)",
+        "tag": "Economy ",
+        "primary_stat": {
+          "label": "Total natural resources rents (% of GDP)",
+          "worldbank_indicator": "NY.GDP.TOTL.RT.ZS"
+        },
+        "why_related": "The country’s modern history and development are closely linked to natural resources such as oil and minerals. Resource rent data helps explain how much of the national economy depends on these sectors.",
+        "video_connection": {
+          "label": "Video connection",
+          "value": "country landscapes + national development context",
+          "note": "what you see in VR"
+        },
+        "source_url": "https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS?locations=CG"
+      }
+    ],
+    "facts": {
+      "iso2": "CG",
+      "capital": "Brazzaville",
+      "population_millions": 6.1,
+      "region": "Middle Africa",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Les_lieux_de_Brazzaville_03.jpg/960px-Les_lieux_de_Brazzaville_03.jpg",
+      "flag_svg": "https://flagcdn.com/cg.svg",
+      "flag_png": "https://flagcdn.com/w320/cg.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.152,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "CRI",
+    "name": "Costa Rica",
+    "vr_videos": [
+      {
+        "id": "cri-1",
+        "title": "Costa Rica 360°",
+        "youtube_id": "AhISnxlonxI"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "cri-forest-area",
+        "title": "Forest Area And Biodiversity (Costa Rica)",
+        "tag": "Environment • Forest • Sustainability ",
+        "primary_stat": {
+          "label": "Forest area (% of land area)",
+          "worldbank_indicator": "AG.LND.FRST.ZS"
+        },
+        "why_related": "Costa Rica is famous for its rainforests and biodiversity. Forest area data helps explain how much of the country’s land is covered by forests and why conservation plays a major role in protecting ecosystems.",
+        "video_connection": {
+          "label": "Video connection",
+          "value": "rainforest + dense jungle vegetation",
+          "note": "what you see in VR"
+        },
+        "source_url": "https://data.worldbank.org/indicator/AG.LND.FRST.ZS?locations=CR"
+      }
+    ],
+    "facts": {
+      "iso2": "CR",
+      "capital": "San José",
+      "population_millions": 5.3,
+      "region": "Central America",
+      "flag_svg": "https://flagcdn.com/cr.svg",
+      "flag_png": "https://flagcdn.com/w320/cr.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.252,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 9051,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "CUB",
+    "name": "Cuba",
+    "vr_videos": [
+      {
+        "id": "cub-1",
+        "title": "Cuba 360°",
+        "youtube_id": "D9gRJlxJ2iI"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "cub-urban-population",
+        "title": "Urban Population (Cuba)",
+        "tag": "Urban • Cities • Population ",
+        "primary_stat": {
+          "label": "Urban population (total)",
+          "worldbank_indicator": "SP.URB.TOTL"
+        },
+        "secondary_stat": {
+          "label": "Urban population (% of total)",
+          "worldbank_indicator": "SP.URB.TOTL.IN.ZS"
+        },
+        "why_related": "The VR video shows Havana’s streets, buildings, and everyday urban life. Urban population data helps explain how many people live in cities and how urban growth shapes housing, transportation, and public spaces.",
+        "video_connection": {
+          "label": "Video connection",
+          "value": "historic city streets + urban architecture",
+          "note": "what you see in VR"
+        },
+        "source_url": "https://data.worldbank.org/indicator/SP.URB.TOTL?locations=CU"
+      }
+    ],
+    "facts": {
+      "iso2": "CU",
+      "capital": "Havana",
+      "population_millions": 9.7,
+      "region": "Caribbean",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/DJI_0197_crp_wiki.jpg/960px-DJI_0197_crp_wiki.jpg",
+      "flag_svg": "https://flagcdn.com/cu.svg",
+      "flag_png": "https://flagcdn.com/w320/cu.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.008,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 18796,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "CZE",
+    "name": "Czechia",
+    "vr_videos": [
+      {
+        "id": "cze-1",
+        "title": "Czechia 360°",
+        "youtube_id": "V02o5GMcwpw"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "cze-tourism-historic-sites",
+        "title": "Tourism And Historic Landmarks (Czechia)",
+        "tag": "Tourism • Culture • Economy ",
+        "primary_stat": {
+          "label": "International tourism, number of arrivals",
+          "worldbank_indicator": "ST.INT.ARVL"
+        },
+        "why_related": "Historic areas such as Prague’s Old Town Square attract millions of international visitors each year. Tourism data helps explain how cultural landmarks contribute to the country’s economy and global visibility.",
+        "video_connection": {
+          "label": "Video connection",
+          "value": "historic square + crowds + cultural landmarks",
+          "note": "what you see in VR"
+        },
+        "source_url": "https://data.worldbank.org/indicator/ST.INT.ARVL?locations=CZ"
+      }
+    ],
+    "facts": {
+      "iso2": "CZ",
+      "capital": "Prague",
+      "population_millions": 10.9,
+      "region": "Central Europe",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Prague_%286365119737%29.jpg/960px-Prague_%286365119737%29.jpg",
+      "flag_svg": "https://flagcdn.com/cz.svg",
+      "flag_png": "https://flagcdn.com/w320/cz.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.341,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 24394,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "PRK",
+    "name": "North Korea",
+    "vr_videos": [
+      {
+        "id": "prk-1",
+        "title": "North Korea 360°",
+        "youtube_id": "T5DEWta0CCk"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "prk-population-growth",
+        "title": "Population Trends (North Korea)",
+        "tag": "Population ",
+        "primary_stat": {
+          "label": "Population, total",
+          "worldbank_indicator": "SP.POP.TOTL"
+        },
+        "secondary_stat": {
+          "label": "Population growth (annual %)",
+          "worldbank_indicator": "SP.POP.GROW"
+        },
+        "why_related": "Population trends help explain the demographic structure and development challenges of North Korea. Population size and growth influence housing, infrastructure, and resource distribution.",
+        "video_connection": {
+          "label": "Video connection",
+          "value": "urban spaces + national context",
+          "note": "what you see in VR"
+        },
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=KP"
+      }
+    ],
+    "facts": {
+      "iso2": "KP",
+      "capital": "Pyongyang",
+      "population_millions": 26,
+      "region": "Eastern Asia",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/The_Arch_of_Triumph_%2811360607534%29.jpg/960px-The_Arch_of_Triumph_%2811360607534%29.jpg",
+      "flag_svg": "https://flagcdn.com/kp.svg",
+      "flag_png": "https://flagcdn.com/w320/kp.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 3.016,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 10119,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "COD",
+    "name": "DR Congo",
+    "vr_videos": [
+      {
+        "id": "cod-1",
+        "title": "DR Congo 360°",
+        "youtube_id": "YUA_N8LG7LM"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "cod-urban-population",
+        "title": "Urban Population (DR Congo)",
+        "tag": "Urban • Population ",
+        "primary_stat": {
+          "label": "Urban population (total)",
+          "worldbank_indicator": "SP.URB.TOTL"
+        },
+        "secondary_stat": {
+          "label": "Urban population (% of total)",
+          "worldbank_indicator": "SP.URB.TOTL.IN.ZS"
+        },
+        "why_related": "Busy markets and crowded streets reflect how urban populations shape economic activity and daily life. Urban population data helps explain the growth of cities and informal markets across the country.",
+        "video_connection": {
+          "label": "Video connection",
+          "value": "crowded market + people + street activity",
+          "note": "what you see in VR"
+        },
+        "source_url": "https://data.worldbank.org/indicator/SP.URB.TOTL?locations=CD"
+      }
+    ],
+    "facts": {
+      "iso2": "CD",
+      "capital": "Kinshasa",
+      "population_millions": 112.8,
+      "region": "Middle Africa",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/La_Gombe%2C_Kinshasa%2C_RDC_%28cropped%29.jpg/960px-La_Gombe%2C_Kinshasa%2C_RDC_%28cropped%29.jpg",
+      "flag_svg": "https://flagcdn.com/cd.svg",
+      "flag_png": "https://flagcdn.com/w320/cd.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 4.07,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "DNK",
+    "name": "Denmark",
+    "vr_videos": [
+      {
+        "id": "dnk-1",
+        "title": "Denmark 360°",
+        "youtube_id": "GtLZvPBvLLA"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "dnk-tourism-economy",
+        "title": "Tourism And Economy (Denmark)",
+        "tag": "Tourism • Economy ",
+        "primary_stat": {
+          "label": "International tourism, number of arrivals",
+          "worldbank_indicator": "ST.INT.ARVL"
+        },
+        "why_related": "Copenhagen’s canals, waterfront districts, and historic neighborhoods attract visitors from around the world. Tourism arrival data helps explain how cultural landmarks and city attractions contribute to Denmark’s economy.",
+        "video_connection": {
+          "label": "Video connection",
+          "value": "canals + waterfront city landmarks",
+          "note": "what you see in VR"
+        },
+        "source_url": "https://data.worldbank.org/indicator/ST.INT.ARVL?locations=DK"
+      }
+    ],
+    "facts": {
+      "iso2": "DK",
+      "capital": "Copenhagen",
+      "population_millions": 6,
+      "region": "Northern Europe",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/2018_-_Christiansborg_from_the_Marble_Bridge.jpg/960px-2018_-_Christiansborg_from_the_Marble_Bridge.jpg",
+      "flag_svg": "https://flagcdn.com/dk.svg",
+      "flag_png": "https://flagcdn.com/w320/dk.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.328,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 3978,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "DMA",
+    "name": "Dominica",
+    "vr_videos": [
+      {
+        "id": "dma-1",
+        "title": "Dominica 360°",
+        "youtube_id": "fgPtZkC6mPQ"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "dma-forest-area",
+        "title": "Forest Area And Biodiversity (Dominica)",
+        "tag": "Environment • Forest • Sustainability ",
+        "primary_stat": {
+          "label": "Forest area (% of land area)",
+          "worldbank_indicator": "AG.LND.FRST.ZS"
+        },
+        "why_related": "Dominica is known for its dense rainforests, waterfalls, and rich biodiversity. Forest area data helps explain how much of the island is covered by forests and why environmental protection plays a key role in preserving these ecosystems.",
+        "video_connection": {
+          "label": "Video connection",
+          "value": "waterfalls + rainforest + coastal nature",
+          "note": "what you see in VR"
+        },
+        "source_url": "https://data.worldbank.org/indicator/AG.LND.FRST.ZS?locations=DM"
+      }
+    ],
+    "facts": {
+      "iso2": "DM",
+      "capital": "Roseau",
+      "population_millions": 0.1,
+      "region": "Caribbean",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Roseau_Dominica.jpg/960px-Roseau_Dominica.jpg",
+      "flag_svg": "https://flagcdn.com/dm.svg",
+      "flag_png": "https://flagcdn.com/w320/dm.png",
+      "metrics": {}
+    }
+  },
+  {
+    "iso3": "DOM",
+    "name": "Dominican Republic",
+    "vr_videos": [
+      {
+        "id": "dom-1",
+        "title": "Dominican Republic 360°",
+        "youtube_id": "Qr8g0dVAVuo",
+        "lat": 18.4861,
+        "lng": -69.9312,
+        "location_label": "Santo Domingo"
+      }
+    ],
+    "facts": {
+      "iso2": "DO",
+      "capital": "Santo Domingo",
+      "population_millions": 10.8,
+      "region": "Caribbean",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/SantoDomingoedit.JPG/960px-SantoDomingoedit.JPG",
+      "flag_svg": "https://flagcdn.com/do.svg",
+      "flag_png": "https://flagcdn.com/w320/do.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.756,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 22948,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "ECU",
+    "name": "Ecuador",
+    "vr_videos": [
+      {
+        "id": "ecu-1",
+        "title": "Ecuador 360°",
+        "youtube_id": "UdV074RF-kg"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "ecu-tourism-cultural-sites",
+        "title": "Tourism And Cultural Heritage (Ecuador)",
+        "tag": "Tourism • Culture • Economy ",
+        "primary_stat": {
+          "label": "International tourism, number of arrivals",
+          "worldbank_indicator": "ST.INT.ARVL"
+        },
+        "why_related": "Historic areas such as Quito’s colonial downtown attract visitors from around the world. Tourism arrival data helps explain how cultural landmarks contribute to Ecuador’s economy and global tourism.",
+        "video_connection": {
+          "label": "Video connection",
+          "value": "historic downtown + colonial architecture",
+          "note": "what you see in VR"
+        },
+        "source_url": "https://data.worldbank.org/indicator/ST.INT.ARVL?locations=EC"
+      }
+    ],
+    "facts": {
+      "iso2": "EC",
+      "capital": "Quito",
+      "population_millions": 18.1,
+      "region": "South America",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/FACHADA_ASAMBLEA_NACIONAL._QUITO%2C_20_DE_FEBRERO_2020._01.jpg/960px-FACHADA_ASAMBLEA_NACIONAL._QUITO%2C_20_DE_FEBRERO_2020._01.jpg",
+      "flag_svg": "https://flagcdn.com/ec.svg",
+      "flag_png": "https://flagcdn.com/w320/ec.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.332,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 43010,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "EGY",
+    "name": "Egypt",
+    "vr_videos": [
+      {
+        "id": "egy-1",
+        "title": "Egypt 360°",
+        "youtube_id": "fH5YGE7jiRk",
+        "lat": 30.0444,
+        "lng": 31.2357,
+        "location_label": "Cairo"
+      },
+      {
+        "id": "egy-2",
+        "title": "Egypt 360°",
+        "youtube_id": "PfUhsW5jwYo"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "egy-cultural-heritage-tourism",
+        "title": "Ancient Heritage And Tourism (Egypt)",
+        "tag": "Tourism • Culture • Heritage ",
+        "primary_stat": {
+          "label": "International tourism, number of arrivals",
+          "worldbank_indicator": "ST.INT.ARVL"
+        },
+        "why_related": "Egypt’s ancient monuments such as the pyramids, temples, and archaeological sites attract millions of visitors each year. Tourism data helps explain how ancient heritage contributes to Egypt’s economy and global cultural significance.",
+        "video_connection": {
+          "label": "Video connection",
+          "value": "ancient monuments + pyramids + archaeological sites",
+          "note": "what you see in VR"
+        },
+        "source_url": "https://data.worldbank.org/indicator/ST.INT.ARVL?locations=EG"
+      }
+    ],
+    "facts": {
+      "iso2": "EG",
+      "capital": "Cairo",
+      "population_millions": 107.3,
+      "region": "Northern Africa",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Cairo_Skyline_%282020%29.jpg/960px-Cairo_Skyline_%282020%29.jpg",
+      "flag_svg": "https://flagcdn.com/eg.svg",
+      "flag_png": "https://flagcdn.com/w320/eg.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.473,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 36,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "SLV",
+    "name": "El Salvador",
+    "vr_videos": [
+      {
+        "id": "slv-1",
+        "title": "El Salvador 360°",
+        "youtube_id": "A5DOrvIzkOE",
+        "lat": 13.6929,
+        "lng": -89.2182,
+        "location_label": "San Salvador"
+      }
+    ],
+    "facts": {
+      "iso2": "SV",
+      "capital": "San Salvador",
+      "population_millions": 6,
+      "region": "Central America",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Monumento_al_Salvador_del_Mundo_1.jpg/960px-Monumento_al_Salvador_del_Mundo_1.jpg",
+      "flag_svg": "https://flagcdn.com/sv.svg",
+      "flag_png": "https://flagcdn.com/w320/sv.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.577,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 1785,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "EST",
+    "name": "Estonia",
+    "vr_videos": [
+      {
+        "id": "est-1",
+        "title": "Estonia 360°",
+        "youtube_id": "sMPaWWybf64",
+        "lat": 59.437,
+        "lng": 24.7536,
+        "location_label": "Tallinn"
+      }
+    ],
+    "facts": {
+      "iso2": "EE",
+      "capital": "Tallinn",
+      "population_millions": 1.4,
+      "region": "Northern Europe",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Raekoja_plats_at_night.jpg/960px-Raekoja_plats_at_night.jpg",
+      "flag_svg": "https://flagcdn.com/ee.svg",
+      "flag_png": "https://flagcdn.com/w320/ee.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.57,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 36156,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "ETH",
+    "name": "Ethiopia",
+    "vr_videos": [
+      {
+        "id": "eth-1",
+        "title": "Ethiopia 360°",
+        "youtube_id": "Z82c1gfBgeA",
+        "lat": 9.025,
+        "lng": 38.7469,
+        "location_label": "Addis Ababa"
+      }
+    ],
+    "facts": {
+      "iso2": "ET",
+      "capital": "Addis Ababa",
+      "population_millions": 111.7,
+      "region": "Eastern Africa",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Addis_in_night.jpg/960px-Addis_in_night.jpg",
+      "flag_svg": "https://flagcdn.com/et.svg",
+      "flag_png": "https://flagcdn.com/w320/et.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 3.702,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 36263,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "FJI",
+    "name": "Fiji",
+    "vr_videos": [
+      {
+        "id": "fji-1",
+        "title": "Fiji 360°",
+        "youtube_id": "u7KOw4T41io",
+        "lat": -18.1416,
+        "lng": 178.4419,
+        "location_label": "Suva"
+      }
+    ],
+    "facts": {
+      "iso2": "FJ",
+      "capital": "Suva",
+      "population_millions": 0.9,
+      "region": "Melanesia",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Suva%2C_Fiji_76.jpg/960px-Suva%2C_Fiji_76.jpg",
+      "flag_svg": "https://flagcdn.com/fj.svg",
+      "flag_png": "https://flagcdn.com/w320/fj.png",
+      "metrics": {
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 788,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "FIN",
+    "name": "Finland",
+    "vr_videos": [
+      {
+        "id": "fin-1",
+        "title": "Finland 360°",
+        "youtube_id": "ftND2OQ_URU",
+        "lat": 60.1699,
+        "lng": 24.9384,
+        "location_label": "Helsinki"
+      }
+    ],
+    "facts": {
+      "iso2": "FI",
+      "capital": "Helsinki",
+      "population_millions": 5.7,
+      "region": "Northern Europe",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Suomenlinna_%28cropped%29.jpg/960px-Suomenlinna_%28cropped%29.jpg",
+      "flag_svg": "https://flagcdn.com/fi.svg",
+      "flag_png": "https://flagcdn.com/w320/fi.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.57,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 241781,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "FRA",
+    "name": "France",
+    "vr_videos": [
+      {
+        "id": "fra-1",
+        "title": "France 360°",
+        "youtube_id": "xdiTy_YjVvg",
+        "lat": 48.8566,
+        "lng": 2.3522,
+        "location_label": "Paris"
+      }
+    ],
+    "facts": {
+      "iso2": "FR",
+      "capital": "Paris",
+      "population_millions": 66.4,
+      "region": "Western Europe",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/960px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg",
+      "flag_svg": "https://flagcdn.com/fr.svg",
+      "flag_png": "https://flagcdn.com/w320/fr.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.747,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 86279,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "GMB",
+    "name": "Gambia",
+    "vr_videos": [
+      {
+        "id": "gmb-1",
+        "title": "Gambia 360°",
+        "youtube_id": "ve6LRrjw8fw",
+        "lat": 13.4549,
+        "lng": -16.579,
+        "location_label": "Banjul"
+      }
+    ],
+    "facts": {
+      "iso2": "GM",
+      "capital": "Banjul",
+      "population_millions": 2.4,
+      "region": "Western Africa",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Gambia03Banjul005_%285400110617%29.jpg/960px-Gambia03Banjul005_%285400110617%29.jpg",
+      "flag_svg": "https://flagcdn.com/gm.svg",
+      "flag_png": "https://flagcdn.com/w320/gm.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.685,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 12,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "GEO",
+    "name": "Georgia",
+    "vr_videos": [
+      {
+        "id": "geo-1",
+        "title": "Georgia 360°",
+        "youtube_id": "S-_rumhUIQw",
+        "lat": 41.7151,
+        "lng": 44.8271,
+        "location_label": "Tbilisi"
+      }
+    ],
+    "facts": {
+      "iso2": "GE",
+      "capital": "Tbilisi",
+      "population_millions": 4,
+      "region": "Western Asia",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/View_of_Tbilisi_from_Tabori_Church_2023-10-08-2.jpg/960px-View_of_Tbilisi_from_Tabori_Church_2023-10-08-2.jpg",
+      "flag_svg": "https://flagcdn.com/ge.svg",
+      "flag_png": "https://flagcdn.com/w320/ge.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.025,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 785,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "DEU",
+    "name": "Germany",
+    "vr_videos": [
+      {
+        "id": "deu-1",
+        "title": "Germany 360°",
+        "youtube_id": "r75nsfFjhJE",
+        "lat": 52.52,
+        "lng": 13.405,
+        "location_label": "Berlin"
+      }
+    ],
+    "facts": {
+      "iso2": "DE",
+      "capital": "Berlin",
+      "population_millions": 83.5,
+      "region": "Western Europe",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Blue_Hour_in_Berlin.jpg/960px-Blue_Hour_in_Berlin.jpg",
+      "flag_svg": "https://flagcdn.com/de.svg",
+      "flag_png": "https://flagcdn.com/w320/de.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.066,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 122936,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "GHA",
+    "name": "Ghana",
+    "vr_videos": [
+      {
+        "id": "gha-1",
+        "title": "Ghana 360°",
+        "youtube_id": "VF3H1aEwN84",
+        "lat": 5.6037,
+        "lng": -0.187,
+        "location_label": "Accra"
+      }
+    ],
+    "facts": {
+      "iso2": "GH",
+      "capital": "Accra",
+      "population_millions": 33.7,
+      "region": "Western Africa",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Acca.jpg/960px-Acca.jpg",
+      "flag_svg": "https://flagcdn.com/gh.svg",
+      "flag_png": "https://flagcdn.com/w320/gh.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.063,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 112581,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "GRC",
+    "name": "Greece",
+    "vr_videos": [
+      {
+        "id": "grc-1",
+        "title": "Greece 360°",
+        "youtube_id": "vDrNOIWm4OY"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "grc-tourism-economy",
+        "title": "Tourism And Economy (Greece)",
+        "tag": "Tourism • Economy ",
+        "primary_stat": {
+          "label": "International tourism, number of arrivals",
+          "worldbank_indicator": "ST.INT.ARVL"
+        },
+        "secondary_stat": {
+          "label": "GDP (current US$)",
+          "worldbank_indicator": "NY.GDP.MKTP.CD"
+        },
+        "why_related": "Tourism arrivals and GDP help you connect what you see in VR (busy historic sites/coasts) to tourism’s role in economic activity.",
+        "video_connection": {
+          "label": "Video connection",
+          "value": "tourist areas + landmarks",
+          "note": "what you see in VR"
+        },
+        "source_url": "https://data.worldbank.org/indicator/ST.INT.ARVL?locations=GR"
+      }
+    ],
+    "facts": {
+      "iso2": "GR",
+      "capital": "Athens",
+      "population_millions": 10.4,
+      "region": "Southern Europe",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Monastiraki_Square_and_Acropolis_in_Athens_%2844149181684%29.jpg/960px-Monastiraki_Square_and_Acropolis_in_Athens_%2844149181684%29.jpg",
+      "flag_svg": "https://flagcdn.com/gr.svg",
+      "flag_png": "https://flagcdn.com/w320/gr.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.516,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 46011,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "GTM",
+    "name": "Guatemala",
+    "vr_videos": [
+      {
+        "id": "gtm-1",
+        "title": "Guatemala 360°",
+        "youtube_id": "v3bDMldpaLs",
+        "lat": 14.6349,
+        "lng": -90.5069,
+        "location_label": "Guatemala City"
+      }
+    ],
+    "facts": {
+      "iso2": "GT",
+      "capital": "Guatemala City",
+      "population_millions": 18.1,
+      "region": "Central America",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Ciudad_de_Guatemala%2C_CA.jpg/960px-Ciudad_de_Guatemala%2C_CA.jpg",
+      "flag_svg": "https://flagcdn.com/gt.svg",
+      "flag_png": "https://flagcdn.com/w320/gt.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.926,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 71099,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "GNB",
+    "name": "Guinea-Bissau",
+    "vr_videos": [
+      {
+        "id": "gnb-1",
+        "title": "Guinea-Bissau 360°",
+        "youtube_id": "W6s5E9UPpCo",
+        "lat": 11.8037,
+        "lng": -15.1804,
+        "location_label": "Bissau"
+      }
+    ],
+    "facts": {
+      "iso2": "GW",
+      "capital": "Bissau",
+      "population_millions": 1.8,
+      "region": "Western Africa",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Bissau-Stroossenzeen--w.jpg/960px-Bissau-Stroossenzeen--w.jpg",
+      "flag_svg": "https://flagcdn.com/gw.svg",
+      "flag_png": "https://flagcdn.com/w320/gw.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.796,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 11480,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "HUN",
+    "name": "Hungary",
+    "vr_videos": [
+      {
+        "id": "hun-1",
+        "title": "Hungary 360°",
+        "youtube_id": "iML1b0d7LrI",
+        "lat": 47.4979,
+        "lng": 19.0402,
+        "location_label": "Budapest"
+      }
+    ],
+    "facts": {
+      "iso2": "HU",
+      "capital": "Budapest",
+      "population_millions": 9.5,
+      "region": "Central Europe",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/View_from_Gell%C3%A9rt_Hill_to_the_Danube%2C_Hungary_-_Budapest_%2828493220635%29.jpg/960px-View_from_Gell%C3%A9rt_Hill_to_the_Danube%2C_Hungary_-_Budapest_%2828493220635%29.jpg",
+      "flag_svg": "https://flagcdn.com/hu.svg",
+      "flag_png": "https://flagcdn.com/w320/hu.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.516,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 19704,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "ISL",
+    "name": "Iceland",
+    "vr_videos": [
+      {
+        "id": "isl-1",
+        "title": "Iceland 360°",
+        "youtube_id": "um0tarRuRY0",
+        "lat": 64.1466,
+        "lng": -21.9426,
+        "location_label": "Reykjavik"
+      }
+    ],
+    "facts": {
+      "iso2": "IS",
+      "capital": "Reykjavik",
+      "population_millions": 0.4,
+      "region": "Northern Europe",
+      "flag_svg": "https://flagcdn.com/is.svg",
+      "flag_png": "https://flagcdn.com/w320/is.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 0,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "IND",
+    "name": "India",
+    "vr_videos": [
+      {
+        "id": "ind-1",
+        "title": "India 360°",
+        "youtube_id": "CZHFu2BSZPs",
+        "lat": 28.6139,
+        "lng": 77.209,
+        "location_label": "New Delhi"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "ind-urban-air-pm25",
+        "title": "Urban Air Pollution (India)",
+        "tag": "Air • Urban ",
+        "primary_stat": {
+          "label": "PM2.5 air pollution, mean annual exposure (µg/m³)",
+          "worldbank_indicator": "EN.ATM.PM25.MC.M3"
+        },
+        "why_related": "Many VR clips show busy roads and dense neighborhoods-PM2.5 exposure helps explain the health impact of traffic, industry, and city growth.",
+        "video_connection": {
+          "label": "Video connection",
+          "value": "traffic + dense urban streets",
+          "note": "what you see in VR"
+        },
+        "source_url": "https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3?locations=IN"
+      }
+    ],
+    "facts": {
+      "iso2": "IN",
+      "capital": "New Delhi",
+      "population_millions": 1417.5,
+      "region": "Southern Asia",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg/960px-Forecourt%2C_Rashtrapati_Bhavan_-_1.jpg",
+      "flag_svg": "https://flagcdn.com/in.svg",
+      "flag_png": "https://flagcdn.com/w320/in.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.383,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 136713,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "IDN",
+    "name": "Indonesia",
+    "vr_videos": [
+      {
+        "id": "idn-1",
+        "title": "Indonesia 360°",
+        "youtube_id": "V82i0XtpMLU",
+        "lat": -6.2088,
+        "lng": 106.8456,
+        "location_label": "Jakarta"
+      }
+    ],
+    "facts": {
+      "iso2": "ID",
+      "capital": "Jakarta",
+      "population_millions": 284.4,
+      "region": "South-Eastern Asia",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Bundaran_Hotel_Indonesia_%282025%29.jpg/960px-Bundaran_Hotel_Indonesia_%282025%29.jpg",
+      "flag_svg": "https://flagcdn.com/id.svg",
+      "flag_png": "https://flagcdn.com/w320/id.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.043,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 1395285,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "IRQ",
+    "name": "Iraq",
+    "vr_videos": [
+      {
+        "id": "irq-1",
+        "title": "Iraq 360°",
+        "youtube_id": "dnScx8pJH20",
+        "lat": 33.3152,
+        "lng": 44.3661,
+        "location_label": "Baghdad"
+      }
+    ],
+    "facts": {
+      "iso2": "IQ",
+      "capital": "Baghdad",
+      "population_millions": 46.1,
+      "region": "Western Asia",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/5628442718_b10fc2c47f_o.jpg/960px-5628442718_b10fc2c47f_o.jpg",
+      "flag_svg": "https://flagcdn.com/iq.svg",
+      "flag_png": "https://flagcdn.com/w320/iq.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 3.152,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 3,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "IRL",
+    "name": "Ireland",
+    "vr_videos": [
+      {
+        "id": "irl-1",
+        "title": "Ireland 360°",
+        "youtube_id": "WXrqQQ3I2SA",
+        "lat": 53.3498,
+        "lng": -6.2603,
+        "location_label": "Dublin"
+      }
+    ],
+    "facts": {
+      "iso2": "IE",
+      "capital": "Dublin",
+      "population_millions": 5.5,
+      "region": "Northern Europe",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Dublin_-_aerial_-_2025-07-07_01.jpg/960px-Dublin_-_aerial_-_2025-07-07_01.jpg",
+      "flag_svg": "https://flagcdn.com/ie.svg",
+      "flag_png": "https://flagcdn.com/w320/ie.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.034,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 6858,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "ISR",
+    "name": "Israel",
+    "vr_videos": [
+      {
+        "id": "isr-1",
+        "title": "Israel 360°",
+        "youtube_id": "Y8DksAX8G7k",
+        "lat": 31.7683,
+        "lng": 35.2137,
+        "location_label": "Jerusalem"
+      }
+    ],
+    "facts": {
+      "iso2": "IL",
+      "capital": "Jerusalem",
+      "population_millions": 10.1,
+      "region": "Western Asia",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/%D7%94%D7%9E%D7%A6%D7%95%D7%93%D7%94_%D7%91%D7%9C%D7%99%D7%9C%D7%94.jpg/960px-%D7%94%D7%9E%D7%A6%D7%95%D7%93%D7%94_%D7%91%D7%9C%D7%99%D7%9C%D7%94.jpg",
+      "flag_svg": "https://flagcdn.com/il.svg",
+      "flag_png": "https://flagcdn.com/w320/il.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 3.497,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "ITA",
+    "name": "Italy",
+    "vr_videos": [
+      {
+        "id": "ita-1",
+        "title": "Italy 360°",
+        "youtube_id": "tLs3efe9qto",
+        "lat": 41.9028,
+        "lng": 12.4964,
+        "location_label": "Rome"
+      }
+    ],
+    "facts": {
+      "iso2": "IT",
+      "capital": "Rome",
+      "population_millions": 58.9,
+      "region": "Southern Europe",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Trevi_Fountain%2C_Rome%2C_Italy_2_-_May_2007.jpg/960px-Trevi_Fountain%2C_Rome%2C_Italy_2_-_May_2007.jpg",
+      "flag_svg": "https://flagcdn.com/it.svg",
+      "flag_png": "https://flagcdn.com/w320/it.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.066,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 44862,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "JPN",
+    "name": "Japan",
+    "vr_videos": [
+      {
+        "id": "jpn-1",
+        "title": "Japan 360°",
+        "youtube_id": "kyN623RzFe0",
+        "lat": 35.6762,
+        "lng": 139.6503,
+        "location_label": "Tokyo"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "jpn-city-density",
+        "title": "City Density Analysis (Japan)",
+        "tag": "Urban",
+        "primary_stat": {
+          "label": "Population density (people per sq. km of land area)",
+          "worldbank_indicator": "EN.POP.DNST"
+        },
+        "why_related": "Japan’s VR scenes often show compact, walkable cities-population density helps explain vertical housing, transit reliance, and street-level crowding.",
+        "video_connection": {
+          "label": "Video connection",
+          "value": "dense city streets + high-rise areas",
+          "note": "what you see in VR"
+        },
+        "source_url": "https://data.worldbank.org/indicator/EN.POP.DNST?locations=JP"
+      }
+    ],
+    "facts": {
+      "iso2": "JP",
+      "capital": "Tokyo",
+      "population_millions": 123.2,
+      "region": "Eastern Asia",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Skyscrapers_of_Shinjuku_2009_January.jpg/960px-Skyscrapers_of_Shinjuku_2009_January.jpg",
+      "flag_svg": "https://flagcdn.com/jp.svg",
+      "flag_png": "https://flagcdn.com/w320/jp.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.504,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 50609,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "JOR",
+    "name": "Jordan",
+    "vr_videos": [
+      {
+        "id": "jor-1",
+        "title": "Jordan 360°",
+        "youtube_id": "z3zoJNF0EpI",
+        "lat": 31.9454,
+        "lng": 35.9284,
+        "location_label": "Amman"
+      }
+    ],
+    "facts": {
+      "iso2": "JO",
+      "capital": "Amman",
+      "population_millions": 11.7,
+      "region": "Western Asia",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/New_Abdali_2024.png/960px-New_Abdali_2024.png",
+      "flag_svg": "https://flagcdn.com/jo.svg",
+      "flag_png": "https://flagcdn.com/w320/jo.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.943,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 0,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "KAZ",
+    "name": "Kazakhstan",
+    "vr_videos": [
+      {
+        "id": "kaz-1",
+        "title": "Kazakhstan 360°",
+        "youtube_id": "ExJOHE20XlU",
+        "lat": 51.1694,
+        "lng": 71.4491,
+        "location_label": "Astana"
+      }
+    ],
+    "facts": {
+      "iso2": "KZ",
+      "capital": "Astana",
+      "population_millions": 20.4,
+      "region": "Central Asia",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Astana_DSC04362_%287711355642%29.jpg/960px-Astana_DSC04362_%287711355642%29.jpg",
+      "flag_svg": "https://flagcdn.com/kz.svg",
+      "flag_png": "https://flagcdn.com/w320/kz.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.779,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 20112,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "KGZ",
+    "name": "Kyrgyzstan",
+    "vr_videos": [
+      {
+        "id": "kgz-1",
+        "title": "Kyrgyzstan 360°",
+        "youtube_id": "Dz8xiuHQg_k",
+        "lat": 42.8746,
+        "lng": 74.5698,
+        "location_label": "Bishkek"
+      }
+    ],
+    "facts": {
+      "iso2": "KG",
+      "capital": "Bishkek",
+      "population_millions": 7.3,
+      "region": "Central Asia",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Bishkek_City%27s_business_center.jpg/960px-Bishkek_City%27s_business_center.jpg",
+      "flag_svg": "https://flagcdn.com/kg.svg",
+      "flag_png": "https://flagcdn.com/w320/kg.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.274,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 95,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "LBN",
+    "name": "Lebanon",
+    "vr_videos": [
+      {
+        "id": "lbn-1",
+        "title": "Lebanon 360°",
+        "youtube_id": "1PcLTDOTyek",
+        "lat": 33.8938,
+        "lng": 35.5018,
+        "location_label": "Beirut"
+      }
+    ],
+    "facts": {
+      "iso2": "LB",
+      "capital": "Beirut",
+      "population_millions": 5.5,
+      "region": "Western Asia",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Beirut_close_to_plane_descent.jpg/960px-Beirut_close_to_plane_descent.jpg",
+      "flag_svg": "https://flagcdn.com/lb.svg",
+      "flag_png": "https://flagcdn.com/w320/lb.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 3.08,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 523,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "LTU",
+    "name": "Lithuania",
+    "vr_videos": [
+      {
+        "id": "ltu-1",
+        "title": "Lithuania 360°",
+        "youtube_id": "aqDfw7fQwqc",
+        "lat": 54.6872,
+        "lng": 25.2797,
+        "location_label": "Vilnius"
+      }
+    ],
+    "facts": {
+      "iso2": "LT",
+      "capital": "Vilnius",
+      "population_millions": 2.9,
+      "region": "Northern Europe",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/84/The_White_Bridge_and_%C5%A0nipi%C5%A1k%C4%97s_district_in_Vilnius_in_2023_by_Augustas_Did%C5%BEgalvis.jpg/960px-The_White_Bridge_and_%C5%A0nipi%C5%A1k%C4%97s_district_in_Vilnius_in_2023_by_Augustas_Did%C5%BEgalvis.jpg",
+      "flag_svg": "https://flagcdn.com/lt.svg",
+      "flag_png": "https://flagcdn.com/w320/lt.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.57,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 24749,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "LUX",
+    "name": "Luxembourg",
+    "vr_videos": [
+      {
+        "id": "lux-1",
+        "title": "Luxembourg 360°",
+        "youtube_id": "chbfXPanW9o",
+        "lat": 49.6117,
+        "lng": 6.1319,
+        "location_label": "Luxembourg City"
+      }
+    ],
+    "facts": {
+      "iso2": "LU",
+      "capital": "Luxembourg",
+      "population_millions": 0.7,
+      "region": "Western Europe",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_Luxembourg.svg/960px-Flag_of_Luxembourg.svg.png",
+      "flag_svg": "https://flagcdn.com/lu.svg",
+      "flag_png": "https://flagcdn.com/w320/lu.png",
+      "metrics": {
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 913,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "MDG",
+    "name": "Madagascar",
+    "vr_videos": [
+      {
+        "id": "mdg-1",
+        "title": "Madagascar 360°",
+        "youtube_id": "Hvp-r3tr0ns",
+        "lat": -18.8792,
+        "lng": 47.5079,
+        "location_label": "Antananarivo"
+      }
+    ],
+    "facts": {
+      "iso2": "MG",
+      "capital": "Antananarivo",
+      "population_millions": 31.7,
+      "region": "Eastern Africa",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Lake_Anosy%2C_Central_Antananarivo%2C_Capital_of_Madagascar%2C_Photo_by_Sascha_Grabow.jpg/500px-Lake_Anosy%2C_Central_Antananarivo%2C_Capital_of_Madagascar%2C_Photo_by_Sascha_Grabow.jpg",
+      "flag_svg": "https://flagcdn.com/mg.svg",
+      "flag_png": "https://flagcdn.com/w320/mg.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.63,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 303191,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "MWI",
+    "name": "Malawi",
+    "vr_videos": [
+      {
+        "id": "mwi-1",
+        "title": "Malawi 360°",
+        "youtube_id": "1gnBwOzGUcY",
+        "lat": -13.9626,
+        "lng": 33.7741,
+        "location_label": "Lilongwe"
+      }
+    ],
+    "facts": {
+      "iso2": "MW",
+      "capital": "Lilongwe",
+      "population_millions": 20.7,
+      "region": "Eastern Africa",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/K.a.r-.clocktower-in-lilongwe.jpg/960px-K.a.r-.clocktower-in-lilongwe.jpg",
+      "flag_svg": "https://flagcdn.com/mw.svg",
+      "flag_png": "https://flagcdn.com/w320/mw.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.009,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 22979,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "MYS",
+    "name": "Malaysia",
+    "vr_videos": [
+      {
+        "id": "mys-1",
+        "title": "Malaysia 360°",
+        "youtube_id": "ygNqbfwwv8M",
+        "lat": 3.139,
+        "lng": 101.6869,
+        "location_label": "Kuala Lumpur"
+      }
+    ],
+    "facts": {
+      "iso2": "MY",
+      "capital": "Kuala Lumpur",
+      "population_millions": 34.2,
+      "region": "South-Eastern Asia",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Bukit_Bintang_junction_in_2024_2.jpg/960px-Bukit_Bintang_junction_in_2024_2.jpg",
+      "flag_svg": "https://flagcdn.com/my.svg",
+      "flag_png": "https://flagcdn.com/w320/my.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 308655,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "MLT",
+    "name": "Malta",
+    "vr_videos": [
+      {
+        "id": "mlt-1",
+        "title": "Malta 360°",
+        "youtube_id": "8_gx7XIPPpw",
+        "lat": 35.8989,
+        "lng": 14.5146,
+        "location_label": "Valletta"
+      }
+    ],
+    "facts": {
+      "iso2": "MT",
+      "capital": "Valletta",
+      "population_millions": 0.6,
+      "region": "Southern Europe",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/St_Sebastian_Curtain_%28cropped%29.jpg/960px-St_Sebastian_Curtain_%28cropped%29.jpg",
+      "flag_svg": "https://flagcdn.com/mt.svg",
+      "flag_png": "https://flagcdn.com/w320/mt.png",
+      "metrics": {
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 0,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "MHL",
+    "name": "Marshall Islands",
+    "vr_videos": [
+      {
+        "id": "mhl-1",
+        "title": "Marshall Islands 360°",
+        "youtube_id": "9xvZp7MYIj8",
+        "lat": 7.1164,
+        "lng": 171.1858,
+        "location_label": "Majuro"
+      }
+    ],
+    "facts": {
+      "iso2": "MH",
+      "capital": "Majuro",
+      "population_millions": 0,
+      "region": "Micronesia",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Eneko_Islet_02.JPG/960px-Eneko_Islet_02.JPG",
+      "flag_svg": "https://flagcdn.com/mh.svg",
+      "flag_png": "https://flagcdn.com/w320/mh.png",
+      "metrics": {}
+    }
+  },
+  {
+    "iso3": "MRT",
+    "name": "Mauritania",
+    "vr_videos": [
+      {
+        "id": "mrt-1",
+        "title": "Mauritania 360°",
+        "youtube_id": "3NMKYRcaaYs",
+        "lat": 18.0735,
+        "lng": -15.9582,
+        "location_label": "Nouakchott"
+      }
+    ],
+    "facts": {
+      "iso2": "MR",
+      "capital": "Nouakchott",
+      "population_millions": 4.9,
+      "region": "Western Africa",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Nouakchott.jpg/960px-Nouakchott.jpg",
+      "flag_svg": "https://flagcdn.com/mr.svg",
+      "flag_png": "https://flagcdn.com/w320/mr.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.998,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 0,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "MUS",
+    "name": "Mauritius",
+    "vr_videos": [
+      {
+        "id": "mus-1",
+        "title": "Mauritius 360°",
+        "youtube_id": "cc1usfspm3Q",
+        "lat": -20.1609,
+        "lng": 57.5012,
+        "location_label": "Port Louis"
+      }
+    ],
+    "facts": {
+      "iso2": "MU",
+      "capital": "Port Louis",
+      "population_millions": 1.2,
+      "region": "Eastern Africa",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Port_Louis_Skyline.JPG/500px-Port_Louis_Skyline.JPG",
+      "flag_svg": "https://flagcdn.com/mu.svg",
+      "flag_png": "https://flagcdn.com/w320/mu.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "MEX",
+    "name": "Mexico",
+    "vr_videos": [
+      {
+        "id": "mex-1",
+        "title": "Mexico 360°",
+        "youtube_id": "W7KTl4r00sI",
+        "lat": 19.4326,
+        "lng": -99.1332,
+        "location_label": "Mexico City"
+      }
+    ],
+    "facts": {
+      "iso2": "MX",
+      "capital": "Mexico City",
+      "population_millions": 130.6,
+      "region": "North America",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Sobrevuelos_CDMX_HJ2A4913_%2825514321687%29_%28cropped%29.jpg/960px-Sobrevuelos_CDMX_HJ2A4913_%2825514321687%29_%28cropped%29.jpg",
+      "flag_svg": "https://flagcdn.com/mx.svg",
+      "flag_png": "https://flagcdn.com/w320/mx.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 3.117,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "MNG",
+    "name": "Mongolia",
+    "vr_videos": [
+      {
+        "id": "mng-1",
+        "title": "Mongolia 360°",
+        "youtube_id": "Lvf9RwuJ5I0",
+        "lat": 47.8864,
+        "lng": 106.9057,
+        "location_label": "Ulaanbaatar"
+      }
+    ],
+    "facts": {
+      "iso2": "MN",
+      "capital": "Ulan Bator",
+      "population_millions": 3.5,
+      "region": "Eastern Asia",
+      "flag_svg": "https://flagcdn.com/mn.svg",
+      "flag_png": "https://flagcdn.com/w320/mn.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.252,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 840,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "MNE",
+    "name": "Montenegro",
+    "vr_videos": [
+      {
+        "id": "mne-1",
+        "title": "Montenegro 360°",
+        "youtube_id": "X7d5GmJtEhw",
+        "lat": 42.4304,
+        "lng": 19.2594,
+        "location_label": "Podgorica"
+      }
+    ],
+    "facts": {
+      "iso2": "ME",
+      "capital": "Podgorica",
+      "population_millions": 0.6,
+      "region": "Southeast Europe",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/P064720-426794_-_Panoramic_view_of_Podgorica.jpg/960px-P064720-426794_-_Panoramic_view_of_Podgorica.jpg",
+      "flag_svg": "https://flagcdn.com/me.svg",
+      "flag_png": "https://flagcdn.com/w320/me.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.504,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "MAR",
+    "name": "Morocco",
+    "vr_videos": [
+      {
+        "id": "mar-1",
+        "title": "Morocco 360°",
+        "youtube_id": "71H4SGBPCIk",
+        "lat": 34.0209,
+        "lng": -6.8416,
+        "location_label": "Rabat"
+      }
+    ],
+    "facts": {
+      "iso2": "MA",
+      "capital": "Rabat",
+      "population_millions": 36.8,
+      "region": "Northern Africa",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Morocco_-_Rabat_%2831387775324%29.jpg/960px-Morocco_-_Rabat_%2831387775324%29.jpg",
+      "flag_svg": "https://flagcdn.com/ma.svg",
+      "flag_png": "https://flagcdn.com/w320/ma.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.191,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 4006,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "MMR",
+    "name": "Myanmar",
+    "vr_videos": [
+      {
+        "id": "mmr-1",
+        "title": "Myanmar 360°",
+        "youtube_id": "Rx3be6F8Q8g",
+        "lat": 19.7633,
+        "lng": 96.0785,
+        "location_label": "Naypyidaw"
+      }
+    ],
+    "facts": {
+      "iso2": "MM",
+      "capital": "Naypyidaw",
+      "population_millions": 51.3,
+      "region": "South-Eastern Asia",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/NPT_Water_Fountain.jpg/960px-NPT_Water_Fountain.jpg",
+      "flag_svg": "https://flagcdn.com/mm.svg",
+      "flag_png": "https://flagcdn.com/w320/mm.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 3.364,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 307184,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "NPL",
+    "name": "Nepal",
+    "vr_videos": [
+      {
+        "id": "npl-1",
+        "title": "Nepal 360°",
+        "youtube_id": "2biOWECLH18",
+        "lat": 27.7172,
+        "lng": 85.324,
+        "location_label": "Kathmandu"
+      }
+    ],
+    "facts": {
+      "iso2": "NP",
+      "capital": "Kathmandu",
+      "population_millions": 29.9,
+      "region": "Southern Asia",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Kathmandu-Durbar_Square-06-Mahavishnu-Kuh-Vishnu-Pratapamalla-Jagannath-2007-gje.jpg/960px-Kathmandu-Durbar_Square-06-Mahavishnu-Kuh-Vishnu-Pratapamalla-Jagannath-2007-gje.jpg",
+      "flag_svg": "https://flagcdn.com/np.svg",
+      "flag_png": "https://flagcdn.com/w320/np.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.777,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 2277,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "NLD",
+    "name": "Netherlands",
+    "vr_videos": [
+      {
+        "id": "nld-1",
+        "title": "Netherlands 360°",
+        "youtube_id": "3zbX5R_ekIQ"
+      }
+    ],
+
+    "facts": {
+      "iso2": "NL",
+      "capital": "Amsterdam",
+      "population_millions": 18.1,
+      "region": "Western Europe",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Imagen_de_los_canales_conc%C3%A9ntricos_en_%C3%81msterdam.png/960px-Imagen_de_los_canales_conc%C3%A9ntricos_en_%C3%81msterdam.png",
+      "flag_svg": "https://flagcdn.com/nl.svg",
+      "flag_png": "https://flagcdn.com/w320/nl.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.095,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 1578,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "NZL",
+    "name": "New Zealand",
+    "vr_videos": [
+      {
+        "id": "nzl-1",
+        "title": "New Zealand 360°",
+        "youtube_id": "bqNXqTWrcAQ",
+        "lat": -41.2865,
+        "lng": 174.7762,
+        "location_label": "Wellington"
+      }
+    ],
+    "facts": {
+      "iso2": "NZ",
+      "capital": "Wellington",
+      "population_millions": 5.3,
+      "region": "Australia and New Zealand",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Seddon_Statue_in_Parliament_Grounds.jpg/960px-Seddon_Statue_in_Parliament_Grounds.jpg",
+      "flag_svg": "https://flagcdn.com/nz.svg",
+      "flag_png": "https://flagcdn.com/w320/nz.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.011,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 50464,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "NGA",
+    "name": "Nigeria",
+    "vr_videos": [
+      {
+        "id": "nga-1",
+        "title": "Nigeria 360°",
+        "youtube_id": "PD3PZoBqN3k",
+        "lat": 9.0765,
+        "lng": 7.3986,
+        "location_label": "Abuja"
+      }
+    ],
+    "facts": {
+      "iso2": "NG",
+      "capital": "Abuja",
+      "population_millions": 223.8,
+      "region": "Western Africa",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/The_National_Assembly_Globe.jpg/960px-The_National_Assembly_Globe.jpg",
+      "flag_svg": "https://flagcdn.com/ng.svg",
+      "flag_png": "https://flagcdn.com/w320/ng.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 3.538,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 85267,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "MKD",
+    "name": "North Macedonia",
+    "vr_videos": [
+      {
+        "id": "mkd-1",
+        "title": "North Macedonia 360°",
+        "youtube_id": "kqZCKAQPSDw",
+        "lat": 41.9973,
+        "lng": 21.428,
+        "location_label": "Skopje"
+      }
+    ],
+    "facts": {
+      "iso2": "MK",
+      "capital": "Skopje",
+      "population_millions": 1.8,
+      "region": "Southeast Europe",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Skopje_view_from_Kale_3.jpg/960px-Skopje_view_from_Kale_3.jpg",
+      "flag_svg": "https://flagcdn.com/mk.svg",
+      "flag_png": "https://flagcdn.com/w320/mk.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.504,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "NOR",
+    "name": "Norway",
+    "vr_videos": [
+      {
+        "id": "nor-1",
+        "title": "Norway 360°",
+        "youtube_id": "WNm2ruX3xVc",
+        "lat": 59.9139,
+        "lng": 10.7522,
+        "location_label": "Oslo"
+      }
+    ],
+    "facts": {
+      "iso2": "NO",
+      "capital": "Oslo",
+      "population_millions": 5.6,
+      "region": "Northern Europe",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Nationaltheatret_evening.jpg/960px-Nationaltheatret_evening.jpg",
+      "flag_svg": "https://flagcdn.com/no.svg",
+      "flag_png": "https://flagcdn.com/w320/no.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.57,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 57971,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "OMN",
+    "name": "Oman",
+    "vr_videos": [
+      {
+        "id": "omn-1",
+        "title": "Oman 360°",
+        "youtube_id": "jbnEYWoF39k",
+        "lat": 23.588,
+        "lng": 58.3829,
+        "location_label": "Muscat"
+      }
+    ],
+    "facts": {
+      "iso2": "OM",
+      "capital": "Muscat",
+      "population_millions": 5.3,
+      "region": "Western Asia",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Al_Alam_Palace.jpg/960px-Al_Alam_Palace.jpg",
+      "flag_svg": "https://flagcdn.com/om.svg",
+      "flag_png": "https://flagcdn.com/w320/om.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.504,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 0,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "PAK",
+    "name": "Pakistan",
+    "vr_videos": [
+      {
+        "id": "pak-1",
+        "title": "Pakistan 360°",
+        "youtube_id": "-kRM7OAcOF8",
+        "lat": 33.6844,
+        "lng": 73.0479,
+        "location_label": "Islamabad"
+      }
+    ],
+    "facts": {
+      "iso2": "PK",
+      "capital": "Islamabad",
+      "population_millions": 241.5,
+      "region": "Southern Asia",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Faisal_Mosque%2C_Islamabad_III.jpg/960px-Faisal_Mosque%2C_Islamabad_III.jpg",
+      "flag_svg": "https://flagcdn.com/pk.svg",
+      "flag_png": "https://flagcdn.com/w320/pk.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 3.242,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 142,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "PNG",
+    "name": "Papua New Guinea",
+    "vr_videos": [
+      {
+        "id": "png-1",
+        "title": "Papua New Guinea 360°",
+        "youtube_id": "plKsvi-qMCE",
+        "lat": -9.4438,
+        "lng": 147.1803,
+        "location_label": "Port Moresby"
+      }
+    ],
+    "facts": {
+      "iso2": "PG",
+      "capital": "Port Moresby",
+      "population_millions": 11.8,
+      "region": "Melanesia",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Port_Moresby_Town2_Mschlauch.jpg/500px-Port_Moresby_Town2_Mschlauch.jpg",
+      "flag_svg": "https://flagcdn.com/pg.svg",
+      "flag_png": "https://flagcdn.com/w320/pg.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.039,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 83765,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "PRY",
+    "name": "Paraguay",
+    "vr_videos": [
+      {
+        "id": "pry-1",
+        "title": "Paraguay 360°",
+        "youtube_id": "QxK-qkGUuHw",
+        "lat": -25.2637,
+        "lng": -57.5759,
+        "location_label": "Asunción"
+      }
+    ],
+    "facts": {
+      "iso2": "PY",
+      "capital": "Asunción",
+      "population_millions": 6.1,
+      "region": "South America",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Palacio_de_Gobierno2.jpg/960px-Palacio_de_Gobierno2.jpg",
+      "flag_svg": "https://flagcdn.com/py.svg",
+      "flag_png": "https://flagcdn.com/w320/py.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.527,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 184551,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "PER",
+    "name": "Peru",
+    "vr_videos": [
+      {
+        "id": "per-1",
+        "title": "Peru 360°",
+        "youtube_id": "77hJtIrMJ7g",
+        "lat": -12.0464,
+        "lng": -77.0428,
+        "location_label": "Lima"
+      }
+    ],
+    "facts": {
+      "iso2": "PE",
+      "capital": "Lima",
+      "population_millions": 34.4,
+      "region": "South America",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Sanisidroskyscrapers.jpg/960px-Sanisidroskyscrapers.jpg",
+      "flag_svg": "https://flagcdn.com/pe.svg",
+      "flag_png": "https://flagcdn.com/w320/pe.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.019,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 227601,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "PHL",
+    "name": "Philippines",
+    "vr_videos": [
+      {
+        "id": "phl-1",
+        "title": "Philippines 360°",
+        "youtube_id": "eX9yW2cRtEU",
+        "lat": 14.5995,
+        "lng": 120.9842,
+        "location_label": "Manila"
+      }
+    ],
+    "facts": {
+      "iso2": "PH",
+      "capital": "Manila",
+      "population_millions": 114.1,
+      "region": "South-Eastern Asia",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Cityscape_of_Manila%2C_2025_%2801%29.jpg/960px-Cityscape_of_Manila%2C_2025_%2801%29.jpg",
+      "flag_svg": "https://flagcdn.com/ph.svg",
+      "flag_png": "https://flagcdn.com/w320/ph.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.538,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 42736,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "POL",
+    "name": "Poland",
+    "vr_videos": [
+      {
+        "id": "pol-1",
+        "title": "Poland 360°",
+        "youtube_id": "bTQxc8y9UvM",
+        "lat": 52.2297,
+        "lng": 21.0122,
+        "location_label": "Warsaw"
+      }
+    ],
+    "facts": {
+      "iso2": "PL",
+      "capital": "Warsaw",
+      "population_millions": 37.4,
+      "region": "Central Europe",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Aleja_Niepdleglosci_Warsaw_2022_aerial_%28cropped%29.jpg/960px-Aleja_Niepdleglosci_Warsaw_2022_aerial_%28cropped%29.jpg",
+      "flag_svg": "https://flagcdn.com/pl.svg",
+      "flag_png": "https://flagcdn.com/w320/pl.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.783,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 76138,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "PRT",
+    "name": "Portugal",
+    "vr_videos": [
+      {
+        "id": "prt-1",
+        "title": "Portugal 360°",
+        "youtube_id": "zVzw0o9DPWs",
+        "lat": 38.7223,
+        "lng": -9.1393,
+        "location_label": "Lisbon"
+      }
+    ],
+    "facts": {
+      "iso2": "PT",
+      "capital": "Lisbon",
+      "population_millions": 10.7,
+      "region": "Southern Europe",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Lisboa_-_Portugal_%2852597836992%29.jpg/960px-Lisboa_-_Portugal_%2852597836992%29.jpg",
+      "flag_svg": "https://flagcdn.com/pt.svg",
+      "flag_png": "https://flagcdn.com/w320/pt.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.181,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 36388,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "QAT",
+    "name": "Qatar",
+    "vr_videos": [
+      {
+        "id": "qat-1",
+        "title": "Qatar 360°",
+        "youtube_id": "Jc_AzwNGmz8",
+        "lat": 25.2854,
+        "lng": 51.531,
+        "location_label": "Doha"
+      }
+    ],
+    "facts": {
+      "iso2": "QA",
+      "capital": "Doha",
+      "population_millions": 3.2,
+      "region": "Western Asia",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/The_Pearl_Marina_in_Nov_2013.jpg/960px-The_Pearl_Marina_in_Nov_2013.jpg",
+      "flag_svg": "https://flagcdn.com/qa.svg",
+      "flag_png": "https://flagcdn.com/w320/qa.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.504,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "RUS",
+    "name": "Russia",
+    "vr_videos": [
+      {
+        "id": "rus-1",
+        "title": "Russia 360°",
+        "youtube_id": "aw_UkhQ2BwM",
+        "lat": 55.7558,
+        "lng": 37.6173,
+        "location_label": "Moscow"
+      }
+    ],
+    "facts": {
+      "iso2": "RU",
+      "capital": "Moscow",
+      "population_millions": 146,
+      "region": "Eastern Europe",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Saint_Basil%27s_Cathedral_and_the_Red_Square.jpg/960px-Saint_Basil%27s_Cathedral_and_the_Red_Square.jpg",
+      "flag_svg": "https://flagcdn.com/ru.svg",
+      "flag_png": "https://flagcdn.com/w320/ru.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 3.371,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 3354721,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "RWA",
+    "name": "Rwanda",
+    "vr_videos": [
+      {
+        "id": "rwa-1",
+        "title": "Rwanda 360°",
+        "youtube_id": "OrQ79_6SF4E",
+        "lat": -1.9403,
+        "lng": 29.8739,
+        "location_label": "Kigali"
+      }
+    ],
+    "facts": {
+      "iso2": "RW",
+      "capital": "Kigali",
+      "population_millions": 14.1,
+      "region": "Eastern Africa",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/High_Angle_View_Of_Kigali_City_Street_on_November_29%2C_2018._Emmanuel_Kwizera.jpg/960px-High_Angle_View_Of_Kigali_City_Street_on_November_29%2C_2018._Emmanuel_Kwizera.jpg",
+      "flag_svg": "https://flagcdn.com/rw.svg",
+      "flag_png": "https://flagcdn.com/w320/rw.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.247,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 3037,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "KNA",
+    "name": "Saint Kitts and Nevis",
+    "vr_videos": [
+      {
+        "id": "kna-1",
+        "title": "Saint Kitts and Nevis 360°",
+        "youtube_id": "EFydnLMR2OI",
+        "lat": 17.3026,
+        "lng": -62.7177,
+        "location_label": "Basseterre"
+      }
+    ],
+    "facts": {
+      "iso2": "KN",
+      "capital": "Basseterre",
+      "population_millions": 0.1,
+      "region": "Caribbean",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/St._Kitts%2C_Karibik_-_Marina_in_Basseterre_-_panoramio.jpg/960px-St._Kitts%2C_Karibik_-_Marina_in_Basseterre_-_panoramio.jpg",
+      "flag_svg": "https://flagcdn.com/kn.svg",
+      "flag_png": "https://flagcdn.com/w320/kn.png",
+      "metrics": {}
+    }
+  },
+  {
+    "iso3": "LCA",
+    "name": "Saint Lucia",
+    "vr_videos": [
+      {
+        "id": "lca-1",
+        "title": "Saint Lucia 360°",
+        "youtube_id": "qen77SCKTu4",
+        "lat": 14.0101,
+        "lng": -60.9875,
+        "location_label": "Castries"
+      }
+    ],
+    "facts": {
+      "iso2": "LC",
+      "capital": "Castries",
+      "population_millions": 0.2,
+      "region": "Caribbean",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/View_of_Castries_Saint_Lucia_Day248bdriveb.jpg/960px-View_of_Castries_Saint_Lucia_Day248bdriveb.jpg",
+      "flag_svg": "https://flagcdn.com/lc.svg",
+      "flag_png": "https://flagcdn.com/w320/lc.png",
+      "metrics": {}
+    }
+  },
+  {
+    "iso3": "SAU",
+    "name": "Saudi Arabia",
+    "vr_videos": [
+      {
+        "id": "sau-1",
+        "title": "Saudi Arabia 360°",
+        "youtube_id": "IruNBpoEg_U",
+        "lat": 24.7136,
+        "lng": 46.6753,
+        "location_label": "Riyadh"
+      }
+    ],
+    "facts": {
+      "iso2": "SA",
+      "capital": "Riyadh",
+      "population_millions": 35.3,
+      "region": "Western Asia",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Riyadh_Skyline.jpg/960px-Riyadh_Skyline.jpg",
+      "flag_svg": "https://flagcdn.com/sa.svg",
+      "flag_png": "https://flagcdn.com/w320/sa.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.766,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 0,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "SRB",
+    "name": "Serbia",
+    "vr_videos": [
+      {
+        "id": "srb-1",
+        "title": "Serbia 360°",
+        "youtube_id": "ndxQGKUGgyc",
+        "lat": 44.7866,
+        "lng": 20.4489,
+        "location_label": "Belgrade"
+      }
+    ],
+    "facts": {
+      "iso2": "RS",
+      "capital": "Belgrade",
+      "population_millions": 6.6,
+      "region": "Southeast Europe",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Panorama_Belgrad.jpg/960px-Panorama_Belgrad.jpg",
+      "flag_svg": "https://flagcdn.com/rs.svg",
+      "flag_png": "https://flagcdn.com/w320/rs.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.123,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 7866,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "SYC",
+    "name": "Seychelles",
+    "vr_videos": [
+      {
+        "id": "syc-1",
+        "title": "Seychelles 360°",
+        "youtube_id": "9ecpi70t_28",
+        "lat": -4.6191,
+        "lng": 55.4513,
+        "location_label": "Victoria"
+      }
+    ],
+    "facts": {
+      "iso2": "SC",
+      "capital": "Victoria",
+      "population_millions": 0.1,
+      "region": "Eastern Africa",
+      "flag_svg": "https://flagcdn.com/sc.svg",
+      "flag_png": "https://flagcdn.com/w320/sc.png",
+      "metrics": {}
+    }
+  },
+  {
+    "iso3": "SGP",
+    "name": "Singapore",
+    "vr_videos": [
+      {
+        "id": "sgp-1",
+        "title": "Singapore 360°",
+        "youtube_id": "nVzf2V9PWqQ",
+        "lat": 1.3521,
+        "lng": 103.8198,
+        "location_label": "Singapore"
+      }
+    ],
+    "facts": {
+      "iso2": "SG",
+      "capital": "Singapore",
+      "population_millions": 6.1,
+      "region": "South-Eastern Asia",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/960px-Flag_of_Singapore.svg.png",
+      "flag_svg": "https://flagcdn.com/sg.svg",
+      "flag_png": "https://flagcdn.com/w320/sg.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "SVK",
+    "name": "Slovakia",
+    "vr_videos": [
+      {
+        "id": "svk-1",
+        "title": "Slovakia 360°",
+        "youtube_id": "ik7Si9U687M",
+        "lat": 48.1486,
+        "lng": 17.1077,
+        "location_label": "Bratislava"
+      }
+    ],
+    "facts": {
+      "iso2": "SK",
+      "capital": "Bratislava",
+      "population_millions": 5.4,
+      "region": "Central Europe",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Slovakia_bratislava.jpg/960px-Slovakia_bratislava.jpg",
+      "flag_svg": "https://flagcdn.com/sk.svg",
+      "flag_png": "https://flagcdn.com/w320/sk.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.756,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 9851,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "SVN",
+    "name": "Slovenia",
+    "vr_videos": [
+      {
+        "id": "svn-1",
+        "title": "Slovenia 360°",
+        "youtube_id": "3Mw9KVS57j8",
+        "lat": 46.0569,
+        "lng": 14.5058,
+        "location_label": "Ljubljana"
+      }
+    ],
+    "facts": {
+      "iso2": "SI",
+      "capital": "Ljubljana",
+      "population_millions": 2.1,
+      "region": "Central Europe",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Ljubljana_made_by_Janez_Kotar.jpg/960px-Ljubljana_made_by_Janez_Kotar.jpg",
+      "flag_svg": "https://flagcdn.com/si.svg",
+      "flag_png": "https://flagcdn.com/w320/si.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.504,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 4620,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "ZAF",
+    "name": "South Africa",
+    "vr_videos": [
+      {
+        "id": "zaf-1",
+        "title": "South Africa 360°",
+        "youtube_id": "bSo-_jkyN2M"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "zaf-income-inequality",
+        "title": "Income Inequality (South Africa)",
+        "tag": "Economy • Inequality ",
+        "primary_stat": {
+          "label": "Gini index",
+          "worldbank_indicator": "SI.POV.GINI"
+        },
+        "secondary_stat": {
+          "label": "Unemployment, total (% of total labor force) (modeled ILO estimate)",
+          "worldbank_indicator": "SL.UEM.TOTL.ZS"
+        },
+        "why_related": "Gini + unemployment gives a quick view of inequality and economic pressure, which can connect to living conditions you notice in VR scenes.",
+        "video_connection": {
+          "label": "Video connection",
+          "value": "neighborhood contrasts + daily life",
+          "note": "what you see in VR"
+        },
+        "source_url": "https://data.worldbank.org/indicator/SI.POV.GINI?locations=ZA"
+      }
+    ],
+    "facts": {
+      "iso2": "ZA",
+      "capital": "Pretoria",
+      "population_millions": 63.1,
+      "region": "Southern Africa",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Uniegebou.jpg/500px-Uniegebou.jpg",
+      "flag_svg": "https://flagcdn.com/za.svg",
+      "flag_png": "https://flagcdn.com/w320/za.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.149,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 29571,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "ESP",
+    "name": "Spain",
+    "vr_videos": [
+      {
+        "id": "esp-1",
+        "title": "Spain 360°",
+        "youtube_id": "klQcoXFVhC4",
+        "lat": 40.4168,
+        "lng": -3.7038,
+        "location_label": "Madrid"
+      }
+    ],
+    "facts": {
+      "iso2": "ES",
+      "capital": "Madrid",
+      "population_millions": 49.3,
+      "region": "Southern Europe",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Madrid_-_Sky_Bar_360%C2%BA_%28Hotel_Riu_Plaza_Espa%C3%B1a%29%2C_vistas_19.jpg/960px-Madrid_-_Sky_Bar_360%C2%BA_%28Hotel_Riu_Plaza_Espa%C3%B1a%29%2C_vistas_19.jpg",
+      "flag_svg": "https://flagcdn.com/es.svg",
+      "flag_png": "https://flagcdn.com/w320/es.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.181,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 85868,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "LKA",
+    "name": "Sri Lanka",
+    "vr_videos": [
+      {
+        "id": "lka-1",
+        "title": "Sri Lanka 360°",
+        "youtube_id": "xdczUJhObB0",
+        "lat": 6.9271,
+        "lng": 79.8612,
+        "location_label": "Colombo"
+      }
+    ],
+    "facts": {
+      "iso2": "LK",
+      "capital": "Sri Jayawardenepura Kotte",
+      "population_millions": 21.8,
+      "region": "Southern Asia",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Diyawanna_Lake_-_October_2017_%281_of_3%29.jpg/960px-Diyawanna_Lake_-_October_2017_%281_of_3%29.jpg",
+      "flag_svg": "https://flagcdn.com/lk.svg",
+      "flag_png": "https://flagcdn.com/w320/lk.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.974,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 11720,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "PSE",
+    "name": "Palestine",
+    "vr_videos": [
+      {
+        "id": "pse-1",
+        "title": "Palestine 360°",
+        "youtube_id": "JkNTOi90NjI",
+        "lat": 31.9038,
+        "lng": 35.2034,
+        "location_label": "Ramallah"
+      }
+    ],
+    "facts": {
+      "iso2": "PS",
+      "capital": "Ramallah",
+      "population_millions": 5.5,
+      "region": "Western Asia",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Mausol%C3%A9e_de_Yasser_Arafat.jpg/960px-Mausol%C3%A9e_de_Yasser_Arafat.jpg",
+      "flag_svg": "https://flagcdn.com/ps.svg",
+      "flag_png": "https://flagcdn.com/w320/ps.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 3.928,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 0,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "SDN",
+    "name": "Sudan",
+    "vr_videos": [
+      {
+        "id": "sdn-1",
+        "title": "Sudan 360°",
+        "youtube_id": "sQ4TJeZldRI",
+        "lat": 15.5007,
+        "lng": 32.5599,
+        "location_label": "Khartoum"
+      }
+    ],
+    "facts": {
+      "iso2": "SD",
+      "capital": "Khartoum",
+      "population_millions": 51.7,
+      "region": "Northern Africa",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/%C2%A9Nile-Project_-Sari_Omer_0025.jpg/960px-%C2%A9Nile-Project_-Sari_Omer_0025.jpg",
+      "flag_svg": "https://flagcdn.com/sd.svg",
+      "flag_png": "https://flagcdn.com/w320/sd.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 4.345,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 23,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "CHE",
+    "name": "Switzerland",
+    "vr_videos": [
+      {
+        "id": "che-1",
+        "title": "Switzerland 360°",
+        "youtube_id": "MGSALKM2VeI",
+        "lat": 46.948,
+        "lng": 7.4474,
+        "location_label": "Bern"
+      }
+    ],
+    "facts": {
+      "iso2": "CH",
+      "capital": "Bern",
+      "population_millions": 9.1,
+      "region": "Western Europe",
+      "flag_svg": "https://flagcdn.com/ch.svg",
+      "flag_png": "https://flagcdn.com/w320/ch.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.066,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 3120,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "TJK",
+    "name": "Tajikistan",
+    "vr_videos": [
+      {
+        "id": "tjk-1",
+        "title": "Tajikistan 360°",
+        "youtube_id": "_Ela2g4s5jM",
+        "lat": 38.5598,
+        "lng": 68.774,
+        "location_label": "Dushanbe"
+      }
+    ],
+    "facts": {
+      "iso2": "TJ",
+      "capital": "Dushanbe",
+      "population_millions": 10.5,
+      "region": "Central Asia",
+      "flag_svg": "https://flagcdn.com/tj.svg",
+      "flag_png": "https://flagcdn.com/w320/tj.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.274,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 15,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "THA",
+    "name": "Thailand",
+    "vr_videos": [
+      {
+        "id": "tha-1",
+        "title": "Thailand 360°",
+        "youtube_id": "Cv3YxB7qN6g",
+        "lat": 13.7563,
+        "lng": 100.5018,
+        "location_label": "Bangkok"
+      }
+    ],
+    "facts": {
+      "iso2": "TH",
+      "capital": "Bangkok",
+      "population_millions": 65.9,
+      "region": "South-Eastern Asia",
+      "flag_svg": "https://flagcdn.com/th.svg",
+      "flag_png": "https://flagcdn.com/w320/th.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.043,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 141860,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "TGO",
+    "name": "Togo",
+    "vr_videos": [
+      {
+        "id": "tgo-1",
+        "title": "Togo 360°",
+        "youtube_id": "mpAjVK3mc60",
+        "lat": 6.1256,
+        "lng": 1.2254,
+        "location_label": "Lomé"
+      }
+    ],
+    "facts": {
+      "iso2": "TG",
+      "capital": "Lomé",
+      "population_millions": 8.1,
+      "region": "Western Africa",
+      "flag_svg": "https://flagcdn.com/tg.svg",
+      "flag_png": "https://flagcdn.com/w320/tg.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.587,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 4448,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "TUN",
+    "name": "Tunisia",
+    "vr_videos": [
+      {
+        "id": "tun-1",
+        "title": "Tunisia 360°",
+        "youtube_id": "JLOcJhHprys",
+        "lat": 36.8065,
+        "lng": 10.1815,
+        "location_label": "Tunis"
+      }
+    ],
+    "facts": {
+      "iso2": "TN",
+      "capital": "Tunis",
+      "population_millions": 12,
+      "region": "Northern Africa",
+      "flag_svg": "https://flagcdn.com/tn.svg",
+      "flag_png": "https://flagcdn.com/w320/tn.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.967,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 3447,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "TUR",
+    "name": "Türkiye",
+    "vr_videos": [
+      {
+        "id": "tur-1",
+        "title": "Türkiye 360°",
+        "youtube_id": "ufPfQCIdL4I",
+        "lat": 39.9334,
+        "lng": 32.8597,
+        "location_label": "Ankara"
+      }
+    ],
+    "datasets": [
+      {
+        "id": "tur-urban-pop",
+        "title": "Urban population",
+        "tag": "Urban",
+        "primary_stat": {
+          "label": "Urban population (total)",
+          "worldbank_indicator": "SP.URB.TOTL"
+        },
+        "secondary_stat": {
+          "label": "Urban population (% of total)",
+          "worldbank_indicator": "SP.URB.TOTL.IN.ZS"
+        },
+        "video_connection": {
+          "label": "Video connection",
+          "value": "big-city streets + skyline",
+          "note": "what you see in VR"
+        },
+        "why_related": "The VR video shows dense city life, and urban population data helps explain why traffic, housing demand, and city services become major challenges.",
+        "source_url": "https://data.worldbank.org/indicator/SP.URB.TOTL?locations=TR"
+      }
+    ],
+    "facts": {
+      "iso2": "TR",
+      "capital": "Ankara",
+      "population_millions": 85.7,
+      "region": "Western Asia",
+      "flag_svg": "https://flagcdn.com/tr.svg",
+      "flag_png": "https://flagcdn.com/w320/tr.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 3.357,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "TKM",
+    "name": "Turkmenistan",
+    "vr_videos": [
+      {
+        "id": "tkm-1",
+        "title": "Turkmenistan 360°",
+        "youtube_id": "OVChhkbTcCI",
+        "lat": 37.9601,
+        "lng": 58.3261,
+        "location_label": "Ashgabat"
+      }
+    ],
+    "facts": {
+      "iso2": "TM",
+      "capital": "Ashgabat",
+      "population_millions": 7.1,
+      "region": "Central Asia",
+      "flag_svg": "https://flagcdn.com/tm.svg",
+      "flag_png": "https://flagcdn.com/w320/tm.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.756,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 0,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "UKR",
+    "name": "Ukraine",
+    "vr_videos": [
+      {
+        "id": "ukr-1",
+        "title": "Ukraine 360°",
+        "youtube_id": "uQR05O5UMv0",
+        "lat": 50.4501,
+        "lng": 30.5234,
+        "location_label": "Kyiv"
+      }
+    ],
+    "facts": {
+      "iso2": "UA",
+      "capital": "Kyiv",
+      "population_millions": 32.9,
+      "region": "Eastern Europe",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/P1130119-1.JPG/960px-P1130119-1.JPG",
+      "flag_svg": "https://flagcdn.com/ua.svg",
+      "flag_png": "https://flagcdn.com/w320/ua.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 4.22,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 67103,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "ARE",
+    "name": "United Arab Emirates",
+    "vr_videos": [
+      {
+        "id": "are-1",
+        "title": "United Arab Emirates 360°",
+        "youtube_id": "b7BUpveunKo",
+        "lat": 24.4539,
+        "lng": 54.3773,
+        "location_label": "Abu Dhabi"
+      }
+    ],
+    "facts": {
+      "iso2": "AE",
+      "capital": "Abu Dhabi",
+      "population_millions": 11.3,
+      "region": "Western Asia",
+      "flag_svg": "https://flagcdn.com/ae.svg",
+      "flag_png": "https://flagcdn.com/w320/ae.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.567,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 0,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "GBR",
+    "name": "United Kingdom",
+    "vr_videos": [
+      {
+        "id": "gbr-1",
+        "title": "United Kingdom 360°",
+        "youtube_id": "KGerjHMa90s",
+        "lat": 51.5074,
+        "lng": -0.1278,
+        "location_label": "London"
+      }
+    ],
+    "facts": {
+      "iso2": "GB",
+      "capital": "London",
+      "population_millions": 69.3,
+      "region": "Northern Europe",
+      "flag_svg": "https://flagcdn.com/gb.svg",
+      "flag_png": "https://flagcdn.com/w320/gb.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.117,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 21609,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "USA",
+    "name": "United States of America",
+    "vr_videos": [
+      {
+        "id": "usa-1",
+        "title": "New York City 360°",
+        "youtube_id": "0qtdheM1cGw",
+        "lat": 40.7128,
+        "lng": -74.006,
+        "location_label": "New York City"
+      },
+      {
+        "id": "usa-2",
+        "title": "Miami 360°",
+        "youtube_id": "xI1ft3sCH2Y",
+        "lat": 25.7617,
+        "lng": -80.1918,
+        "location_label": "Miami"
+      },
+      {
+        "id": "usa-3",
+        "title": "Chicago 360°",
+        "youtube_id": "k7Z_-Jd-qco",
+        "lat": 41.8781,
+        "lng": -87.6298,
+        "location_label": "Chicago"
+      },
+      {
+        "id": "usa-4",
+        "title": "California 360°",
+        "youtube_id": "eG6bGGdl4io",
+        "lat": 36.7783,
+        "lng": -119.4179,
+        "location_label": "California"
+      }
+    ],
+    "facts": {
+      "iso2": "US",
+      "capital": "Washington, D.C.",
+      "population_millions": 340.1,
+      "region": "North America",
+      "flag_svg": "https://flagcdn.com/us.svg",
+      "flag_png": "https://flagcdn.com/w320/us.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.219,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "URY",
+    "name": "Uruguay",
+    "vr_videos": [
+      {
+        "id": "ury-1",
+        "title": "Uruguay 360°",
+        "youtube_id": "4KhgMHJe_j4",
+        "lat": -34.9011,
+        "lng": -56.1645,
+        "location_label": "Montevideo"
+      }
+    ],
+    "facts": {
+      "iso2": "UY",
+      "capital": "Montevideo",
+      "population_millions": 3.5,
+      "region": "South America",
+      "flag_svg": "https://flagcdn.com/uy.svg",
+      "flag_png": "https://flagcdn.com/w320/uy.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 20954,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "UZB",
+    "name": "Uzbekistan",
+    "vr_videos": [
+      {
+        "id": "uzb-1",
+        "title": "Uzbekistan 360°",
+        "youtube_id": "5CVnXGKUGgyc",
+        "lat": 41.2995,
+        "lng": 69.2401,
+        "location_label": "Tashkent"
+      }
+    ],
+    "facts": {
+      "iso2": "UZ",
+      "capital": "Tashkent",
+      "population_millions": 37.9,
+      "region": "Central Asia",
+      "flag_svg": "https://flagcdn.com/uz.svg",
+      "flag_png": "https://flagcdn.com/w320/uz.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.008,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 0,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "VEN",
+    "name": "Venezuela",
+    "vr_videos": [
+      {
+        "id": "ven-1",
+        "title": "Venezuela 360°",
+        "youtube_id": "L_tqK4eqelA",
+        "lat": 10.4806,
+        "lng": -66.9036,
+        "location_label": "Caracas"
+      }
+    ],
+    "facts": {
+      "iso2": "VE",
+      "capital": "Caracas",
+      "population_millions": 28.5,
+      "region": "South America",
+      "flag_svg": "https://flagcdn.com/ve.svg",
+      "flag_png": "https://flagcdn.com/w320/ve.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.557,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 76608,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "VNM",
+    "name": "Vietnam",
+    "vr_videos": [
+      {
+        "id": "vnm-1",
+        "title": "Vietnam 360°",
+        "youtube_id": "APEhygaYASM",
+        "lat": 21.0278,
+        "lng": 105.8342,
+        "location_label": "Hanoi"
+      }
+    ],
+    "facts": {
+      "iso2": "VN",
+      "capital": "Hanoi",
+      "population_millions": 101.3,
+      "region": "South-Eastern Asia",
+      "flag_svg": "https://flagcdn.com/vn.svg",
+      "flag_png": "https://flagcdn.com/w320/vn.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.618,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 135321,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "ZMB",
+    "name": "Zambia",
+    "vr_videos": [
+      {
+        "id": "zmb-1",
+        "title": "Zambia 360°",
+        "youtube_id": "WsMjBMxpUTc",
+        "lat": -15.3875,
+        "lng": 28.3228,
+        "location_label": "Lusaka"
+      }
+    ],
+    "facts": {
+      "iso2": "ZM",
+      "capital": "Lusaka",
+      "population_millions": 19.7,
+      "region": "Eastern Africa",
+      "flag_svg": "https://flagcdn.com/zm.svg",
+      "flag_png": "https://flagcdn.com/w320/zm.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 1.76,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 190289,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  },
+  {
+    "iso3": "ZWE",
+    "name": "Zimbabwe",
+    "vr_videos": [
+      {
+        "id": "zwe-1",
+        "title": "Zimbabwe 360°",
+        "youtube_id": "SEubRfRI5mM",
+        "lat": -17.8252,
+        "lng": 31.0335,
+        "location_label": "Harare"
+      }
+    ],
+    "facts": {
+      "iso2": "ZW",
+      "capital": "Harare",
+      "population_millions": 17.1,
+      "region": "Southern Africa",
+      "capital_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Crowne_Plaza%2C_Harare.png/960px-Crowne_Plaza%2C_Harare.png",
+      "flag_svg": "https://flagcdn.com/zw.svg",
+      "flag_png": "https://flagcdn.com/w320/zw.png",
+      "metrics": {
+        "gpi_score": {
+          "label": "Global Peace Index (GPI)",
+          "value": 2.293,
+          "unit": "",
+          "year": null
+        },
+        "deforestation_latest_loss": {
+          "label": "Tree cover loss (latest)",
+          "value": 5669,
+          "unit": "",
+          "year": null
+        }
+      }
+    }
+  }
+]
