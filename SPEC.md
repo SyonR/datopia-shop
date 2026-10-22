@@ -28,7 +28,7 @@ The three current missions demonstrate anomaly types and the benefit of storing 
 - `data/countries.enriched.json` contains 118 countries. The first five display items are Albania, Algeria, Argentina, Armenia, and Australia.
 - Item popups display `name`, `facts.capital`, `facts.region`, `facts.population_millions`, and entries in `facts.metrics` using their labels, values, and units.
 - Missions currently select countries by JSON array index: Albania 0, Algeria 1, Argentina 2. Preserve that mapping unless deliberately replacing it with stable IDs.
-- Albania's starting 2.4M population comes from the supplied dataset. Mission values 2.7M and 2.9M, plus census years 2020/2025/2026, are fictional teaching examples. Do not present them as verified census facts or overwrite the source JSON.
+- Mission 1 uses made-up crate prices ($5.00 → $6.00 → $7.00), not dataset values. It was switched from population on 2026-10-22 because populations legitimately differ by year, so two crates with different years were not a real anomaly. A price has one current value, and both crates are labeled CURRENT PRICE so the contradiction is explicit. Do not overwrite the source JSON.
 
 ## Existing store and interactions
 
@@ -36,7 +36,11 @@ The store uses 20 Kenney Mini Market GLB assets in `models/`, with `models/Textu
 
 The capsule player has an attached first-person camera. WASD/arrows move, Space jumps, and the mouse looks around. A centered crosshair ray reaches three units and detects both bodies and areas. Aimed items and quest objects receive white outlines; the cashier shows “Click to talk.” Left-click interacts. Clicking empty space hides the popup; Esc releases the mouse, and another click captures it.
 
-Country data and quest dialogue share the top-left popup. Mission progress appears at the top center. Crate names and years are printed flat on readable crate faces, excluding the face toward the sign. Sign labels may still float. Stickers are small clickable cubes that can be carried and placed one at a time.
+Country data, shelf records and quest dialogue share a bottom-center dialogue box (`dialogue.gd`): name tab, optional portrait (`ui/cashier.png` for lines starting "Cashier: "), and text that grows upward. Mission progress appears at the top center. Crate headings and values are printed flat on readable crate faces, excluding the face toward the sign. Sign labels may still float. Stickers are small clickable cubes that can be carried and placed one at a time.
+
+## Rats and broom (optional fun)
+
+Separate from the missions. A rat spawns every 8–15 s at one of six open floor points (at least 3 m from the player), up to 5 at once; an unhit rat leaves after 30 s. Rats run short straight hops, each checked with a ray against store collision and the food shelf, and stay inside ±13.5 m. Press B (or click the bottom-right "Broom (B)" slot with the mouse free, or VR grip) to equip the broom; the slot gets a yellow border. While equipped, left click / VR trigger swings (0.3 s; 0.45 s between swing starts) instead of interacting. During the contact part of the swing, rats whose nearest end is within 1.4 m horizontally, within 50° of where you face, with no wall in between, flatten (visual squashed, collision off) and vanish after 1 s. Rats are 0.7 m long and stand on the floor tiles' top (y = 0.075; the physics floor is at 0). The smack plays from 0.92 s into `sounds/smack.mp3` (the file has ~0.9 s of lead-in) and is cut after 0.5 s. Tunables are `@export` vars at the top of each script. Rat textures are import-capped at 256 px (32 px for the flat roughness map) for the web build.
 
 ## Mission requirements
 
@@ -44,9 +48,9 @@ Click the cashier to start mission 1. After completing a mission, another cashie
 
 | Mission | Required sequence | Completion |
 | --- | --- | --- |
-| **1. The Mixed-Up Crates — Albania / update anomaly** | In the back-right corner, compare two crates: 2.7M/2025 and 2.4M/2020. Select the older crate **or its sticker**. Carry each red sticker to the Albania sign. Both crates then display 2.7M/2025. Return to the cashier for another simulated census. | The sign and both crates display 2.9M/2026 together. |
-| **2. The Last Crate — Algeria / deletion anomaly** | In the back-left corner, sell the only crate by clicking it or its green ALGIERS sticker. Ask the cashier for the capital; the fact has disappeared from the mission's records. Talk again to rewind. Move the restored sticker onto an Algeria sign, then sell the crate again. | The crate disappears while the sign retains Algiers. |
-| **3. No Crate Yet — Argentina / insertion anomaly** | Start holding a blue BUENOS AIRES sticker, with no Argentina crate available. Return to the cashier to discover the problem; talk again to create a sign in the front-left corner. Place the sticker there, then ask the cashier to order a crate. | The delivered crate immediately displays Buenos Aires from the country-sign concept. |
+| **1. The Mixed-Up Crates — Albania / update anomaly** | In the back-right corner, two crates both headed CURRENT PRICE show $6.00 and $5.00. Select the $5.00 crate **or its sticker**. Carry each red sticker to the Albania sign. Both crates then read $6.00 from the sign. Return to the cashier for another price change. | The sign and both crates display $7.00 together. |
+| **2. The Last Item — Algeria / deletion anomaly** | A customer (Kenney mini-character `character-female-b`) walks in through the front door and waits in front of the food shelf. Algeria's shelf product (Milk) carries a green ALGIERS tag, the only copy of the capital. Pick up the product (or click its tag) and hand it to the customer; she nods and walks out carrying it. Ask the cashier for the capital; it's gone. Talk again to rewind: the product returns to the shelf and the customer walks in again. Move the tag onto the Algeria sign beside the shelf, then hand over the product. | The customer leaves with the product while the sign retains Algiers. |
+| **3. Nothing to Stick It On — Argentina / insertion anomaly** | Start holding a blue BUENOS AIRES sticker; capitals go on product tags, but the shelf has no Argentina product (shelf origins skip JSON index 2). Clicking a product while holding the sticker names its country. Return to the cashier to discover the problem; talk again to create an Argentina sign at the right end of the food shelf. Place the sticker there, then ask the cashier to order a product. | Argentina honey appears in an empty shelf spot with a BUENOS AIRES tag and a record that reads the capital from the sign. |
 
 Wrong selections should leave the mission solvable. Preserve the crate/sticker click equivalence during anomaly selection and selling. Picking up a sticker disables its collision so it cannot block aiming at its destination.
 
@@ -66,7 +70,12 @@ The progress label must count down “Missions left: 3 of 3” → “2 of 3” 
 | `clickable.gd` | Shared clickable box geometry, collision, outline, and `clicked` signal. |
 | `quest.gd` | Mission creation, sequence, cashier routing, and dev jumps. |
 | `quest_kit.gd` | Shared crate/sign/sticker creation, carrying, placement, selling/delivery animations, and labels. |
-| `mission_mixed_crates.gd`, `mission_last_crate.gd`, `mission_no_crate.gd` | Individual mission state machines extending `quest_kit.gd`. |
+| `mission_mixed_crates.gd`, `mission_last_item.gd`, `mission_no_item.gd` | Individual mission state machines extending `quest_kit.gd`. Missions get `shelf` and implement `cleanup()` for dev jumps. |
+| `shelf.gd` | Food shelf: 6 product rows on 8 spots, pick up/put back, `find_item`, `give_held`, `restock`, `add_item`, `remove`, optional per-row `note`, and `busy_handler` for clicks while holding a sticker. |
+| `customer.gd` | Clickable animated shopper: `walk(from, points)`, `take(body)`, `thank_and_walk(points)`, `react(yes)`. |
+| `dialogue.gd`, `ui/*.png` | Bottom dialogue box; cashier and customer portraits rendered from their models. |
+| `vr.gd` | WebXR rig: Enter VR button, controller laser, thumbstick move/snap turn, hand HUD. |
+| `rat.gd`, `rat_spawner.gd`, `broom.gd` | Optional rat smacking (not part of the missions): rats scurry on physics layer 4 (block nothing); B / the Broom slot / VR grip toggles the broom; while it's out, clicks and VR trigger swing instead of interacting. |
 
 Missions expose `started`, `done`, `held`, `setup(country)`, `start()`, `on_cashier()`, and `say(text)`. Interactable objects implement `set_highlight(bool)` and `select()`.
 

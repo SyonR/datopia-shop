@@ -7,6 +7,7 @@ extends XROrigin3D
 signal started
 signal ended
 signal trigger
+signal grip
 
 const RAY_LENGTH := 3.0
 const DEADZONE := 0.2
@@ -109,12 +110,15 @@ func set_hud(text: String) -> void:
 func _controller(tracker: String) -> XRController3D:
 	var c := XRController3D.new()
 	c.tracker = tracker
+	c.visible = false   # no laser or HUD on desktop
 	add_child(c)
 	return c
 
 func _on_button(input_name: String) -> void:
 	if input_name == "trigger_click":
 		trigger.emit()
+	elif input_name == "grip_click":
+		grip.emit()
 
 func _on_supported(mode: String, supported: bool) -> void:
 	if mode == "immersive-vr" and supported:
@@ -134,6 +138,8 @@ func _on_started() -> void:
 	get_viewport().use_xr = true
 	head.current = true
 	active = true
+	left.visible = true
+	right.visible = true
 	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
 	button.hide()
 	started.emit()
@@ -141,6 +147,8 @@ func _on_started() -> void:
 func _on_ended() -> void:
 	get_viewport().use_xr = false
 	active = false
+	left.visible = false
+	right.visible = false
 	button.show()
 	ended.emit()
 

@@ -1,15 +1,22 @@
 extends Node
 
 const ITEM_SCENE = preload("res://item.tscn")
+const SHELF = preload("res://shelf.gd")
+const DIALOGUE = preload("res://dialogue.gd")
+const CASHIER_FACE = preload("res://ui/cashier.png")
+const CUSTOMER_FACE = preload("res://ui/customer.png")
+const RAT_SPAWNER = preload("res://rat_spawner.gd")
+const BROOM = preload("res://broom.gd")
 const ITEM_COUNT = 5
 const COLORS = [Color.TOMATO, Color.GOLD, Color.MEDIUM_SEA_GREEN, Color.DODGER_BLUE, Color.ORCHID]
 
-@onready var popup: PanelContainer = $UI/Popup
-@onready var popup_label: Label = $UI/Popup/Label
 @onready var progress_bar: ProgressBar = $UI/Progress/Bar
 @onready var progress_label: Label = $UI/Progress/Label
 
+var dialogue = DIALOGUE.new()
+
 func _ready():
+	$UI.add_child(dialogue)
 	var file = FileAccess.open("res://data/countries.enriched.json", FileAccess.READ)
 	var countries = JSON.parse_string(file.get_as_text())
 	print(countries.size())
@@ -24,10 +31,24 @@ func _ready():
 
 	$player.clicked_empty.connect(hide_popup)
 	$player.vr.setup($UI)
-	$Quest.setup(countries)
+
+	var shelf = SHELF.new()
+	add_child(shelf)
+	shelf.setup(countries, $Store, $player.hand)
+	shelf.say.connect(show_text)
+
+	$Quest.setup(countries, shelf)
 	$Quest.say.connect(show_text)
+
+	# Optional fun, separate from the missions: rats and a broom
+	var rats = RAT_SPAWNER.new()
+	rats.player = $player
+	add_child(rats)
+	var broom = BROOM.new()
+	add_child(broom)
+	broom.setup($player, $UI, rats)
+	$player.broom = broom
 	$Cashier.talked_to.connect($Quest.on_cashier)
-	popup.hide()
 
 # Keep the mission progress bar at the top up to date
 func _process(_delta: float) -> void:
@@ -41,21 +62,28 @@ func _process(_delta: float) -> void:
 	var left := total - finished
 	progress_label.text = "All missions complete!" if left == 0 else "Missions left: %d of %d" % [left, total]
 	if $player.vr.active:
-		$player.vr.set_hud(progress_label.text + ("\n\n" + popup_label.text if popup.visible else ""))
+		var hud := progress_label.text
+		if dialogue.visible:
+			hud += "\n\n" + (dialogue.name_label.text + ": " if dialogue.name_tab.visible else "") + dialogue.label.text
+		$player.vr.set_hud(hud)
 
+# Lines starting with "Cashier: " or "Customer: " get a name tab and portrait
 func show_text(text: String) -> void:
-	popup_label.text = text
-	popup.show()
+	for speaker in [["Cashier", CASHIER_FACE], ["Customer", CUSTOMER_FACE]]:
+		var prefix: String = speaker[0] + ": "
+		if text.begins_with(prefix):
+			dialogue.say(speaker[0], text.trim_prefix(prefix), speaker[1])
+			return
+	dialogue.say("", text)
 
 func show_popup(country: Dictionary) -> void:
 	var facts = country["facts"]
-	var text = "%s\n\nCapital: %s\nRegion: %s\nPopulation: %s million\n" % [
-		country["name"], facts["capital"], facts["region"], facts["population_millions"]]
+	var text = "Capital: %s\nRegion: %s\nPopulation: %s million\n" % [
+		facts["capital"], facts["region"], facts["population_millions"]]
 	for key in facts["metrics"]:
 		var m = facts["metrics"][key]
 		text += "%s: %s %s\n" % [m["label"], m["value"], m["unit"]]
-	popup_label.text = text
-	popup.show()
+	dialogue.say(country["name"], text.strip_edges())
 
 func hide_popup() -> void:
-	popup.hide()
+	dialogue.hide()

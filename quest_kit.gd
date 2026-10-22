@@ -7,8 +7,10 @@ signal say(text)
 
 const CLICKABLE = preload("res://clickable.gd")
 const CRATE_COLOR = Color(0.6, 0.4, 0.2)
+const CRATE_MODEL = preload("res://models/furniture/cardboardBoxClosed.glb")
 
 var hand: Node3D   # the player's carried-sticker spot
+var shelf          # the food shelf (shelf.gd)
 var started := false
 var done := false
 var held = null   # the sticker you are carrying
@@ -23,12 +25,16 @@ func start() -> void:
 func on_cashier() -> void:
 	pass
 
+# Called before a dev jump throws the mission away
+func cleanup() -> void:
+	pass
+
 # ---------- Crates, stickers, signs ----------
 
-# A solid crate. `sides` = which faces get printed labels (never the sign side).
+# A solid crate (a Kenney cardboard box). `sides` = which faces get printed labels (never the sign side).
 # names: top line(s), info: bottom line(s)
 func make_crate(pos: Vector3, sides: Array) -> Dictionary:
-	var body = _clickable(StaticBody3D.new(), Vector3(1, 1, 1), CRATE_COLOR, self)
+	var body = _clickable(StaticBody3D.new(), Vector3(1, 1, 1), CRATE_COLOR, self, CRATE_MODEL)
 	body.position = pos
 	return {"body": body, "sides": sides,
 		"names": face_labels(body, sides, 0.5, 0.25, 32),
@@ -61,6 +67,13 @@ func make_sign(pos: Vector3, title: String) -> Dictionary:
 	label.position = Vector3(0, 0.9, 0)
 	body.add_child(label)
 	return {"body": body, "label": label, "slots": 0}
+
+# A flat tag stuck on the front of a shelf product (shelf items face +z)
+func make_tag(body: Node3D, color: Color, text: String, height := 0.14):
+	var tag = _clickable(Area3D.new(), Vector3(0.34, height, 0.04), color, body)
+	tag.position = Vector3(0, 0, 0.21)
+	set_text(face_labels(tag, [Vector3(0, 0, 1)], 0.02, 0.0, 14), text)
+	return tag
 
 # A sticker that isn't on any crate (for example, the cashier hands it to you)
 func make_loose_sticker(color: Color, sides: Array, text: String, text_size: int):
@@ -117,8 +130,8 @@ func set_text(labels: Array, text: String) -> void:
 	for l in labels:
 		l.text = text
 
-func _clickable(body, size: Vector3, color: Color, parent: Node):
+func _clickable(body, size: Vector3, color: Color, parent: Node, model: PackedScene = null):
 	body.set_script(CLICKABLE)
 	parent.add_child(body)
-	body.build(size, color)
+	body.build(size, color, model)
 	return body

@@ -12,10 +12,13 @@ const VR = preload("res://vr.gd")
 
 var hovered: Node = null
 var vr: XROrigin3D
+var broom   # broom.gd, set by main; while it's out, clicks swing it
 var hand := Node3D.new()   # where a carried sticker sits
 
 func _ready() -> void:
 	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
+	# Layer 2 = the food shelf: it blocks walking, but the aim ray sees through it
+	set_collision_mask_value(2, true)
 	camera.add_child(hand)
 	hand.position = Vector3(0.35, -0.3, -0.9)
 
@@ -45,6 +48,9 @@ func _unhandled_input(event: InputEvent) -> void:
 			_click()
 
 func _click() -> void:
+	if broom and broom.equipped:
+		broom.try_swing()
+		return
 	if is_instance_valid(hovered):
 		hovered.select()
 	else:

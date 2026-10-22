@@ -11,16 +11,18 @@ const DEV_MODE := true
 # [mission script, which country from the JSON]
 const MISSIONS = [
 	[preload("res://mission_mixed_crates.gd"), 0],   # Albania
-	[preload("res://mission_last_crate.gd"), 1],     # Algeria
-	[preload("res://mission_no_crate.gd"), 2],       # Argentina
+	[preload("res://mission_last_item.gd"), 1],      # Algeria
+	[preload("res://mission_no_item.gd"), 2],        # Argentina
 ]
 
 var countries: Array
+var shelf
 var missions := []
 var current := 0
 
-func setup(country_list: Array) -> void:
+func setup(country_list: Array, food_shelf) -> void:
 	countries = country_list
+	shelf = food_shelf
 	_create_missions()
 
 func on_cashier() -> void:
@@ -43,6 +45,7 @@ func _unhandled_input(event: InputEvent) -> void:
 # Throw away every mission (and anything they built) and start mission n fresh
 func _jump_to(n: int) -> void:
 	for m in missions:
+		m.cleanup()
 		if is_instance_valid(m.held):
 			m.held.queue_free()   # a sticker you were carrying
 		m.queue_free()
@@ -60,6 +63,7 @@ func _create_missions() -> void:
 		var m = entry[0].new()
 		add_child(m)
 		m.hand = hand
+		m.shelf = shelf
 		m.setup(countries[entry[1]])
 		m.say.connect(say.emit)
 		missions.append(m)

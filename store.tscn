@@ -708,10 +708,10 @@ transform = Transform3D(3.0, 0, 0, 0, 3.0, 0, 0, 0, 3.0, -10, 0.0, 9)
 transform = Transform3D(0, 0, -3.0, 0, 3.0, 0, 3.0, 0, 0, -11, 0.0, -2)
 
 [node name="shopping-cart_1" parent="Models" instance=ExtResource("m_10")]
-transform = Transform3D(3.0, 0, 0, 0, 3.0, 0, 0, 0, 3.0, -4.0, 0.0, 12.5)
+transform = Transform3D(3.0, 0, 0, 0, 3.0, 0, 0, 0, 3.0, -5.5, 0.0, 12.5)
 
 [node name="shopping-cart_2" parent="Models" instance=ExtResource("m_10")]
-transform = Transform3D(3.0, 0, 0, 0, 3.0, 0, 0, 0, 3.0, -3.4, 0.0, 12.5)
+transform = Transform3D(3.0, 0, 0, 0, 3.0, 0, 0, 0, 3.0, -4.0, 0.0, 12.5)
 
 [node name="shopping-cart_3" parent="Models" instance=ExtResource("m_10")]
 transform = Transform3D(3.0, 0, 0, 0, 3.0, 0, 0, 0, 3.0, -2.8, 0.0, 12.5)
@@ -815,7 +815,10 @@ shape = SubResource("box_7")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.8, 1.275, -2.5)
 shape = SubResource("box_8")
 
-[node name="Box9" type="CollisionShape3D" parent="Collision"]
+[node name="ShelfCollision" type="StaticBody3D" parent="."]
+collision_layer = 2
+
+[node name="Box9" type="CollisionShape3D" parent="ShelfCollision"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.8, 1.275, -2.5)
 shape = SubResource("box_9")
 
