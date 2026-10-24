@@ -1,4 +1,4 @@
-extends "res://quest_kit.gd"
+extends "res://missions/quest_kit.gd"
 
 # Mission 2: "The Last Item" (deletion anomaly)
 # Algeria's capital is written ONLY on the tag of its one shelf product.
@@ -7,7 +7,7 @@ extends "res://quest_kit.gd"
 
 enum State { GIVE_FIRST, ASK_CASHIER, REWIND, SAVE_FACT, GIVE_AGAIN, DONE }
 
-const CUSTOMER = preload("res://customer.gd")
+const CUSTOMER = preload("res://npc/customer.gd")
 const SIGN_SPOT = Vector3(1.9, 2, -0.6)   # beside the food shelf, facing the aisle
 const OUTSIDE = Vector3(1.5, 0, 17)       # beyond the front door
 const PATH_IN = [Vector3(1.5, 0, 13), Vector3(2.0, 0, 5), Vector3(2.6, 0, 0.4)]
@@ -84,7 +84,7 @@ func _on_customer(_node) -> void:
 				say.emit("The customer walked out with the %s, and its tag.\n\nQuick: what is %s's capital? Go ask the cashier." % [_product(), country_name])
 			else:
 				state = State.DONE
-				done = true
+				complete()
 				say.emit("The %s is gone... and the sign STILL says %s!\nFacts about a country live with the country, not on one product.\n\nMission complete!" % [_product(), capital])
 		State.SAVE_FACT:
 			customer.react(false)

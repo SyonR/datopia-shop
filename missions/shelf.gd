@@ -7,7 +7,7 @@ extends Node3D
 
 signal say(text)
 
-const CLICKABLE = preload("res://clickable.gd")
+const CLICKABLE = preload("res://interact/clickable.gd")
 const SHELF_NAME = "shelf-boxes_3"      # in store.tscn, at x 3.6, z -2.5
 const FRONT = Vector3(3.6, 0, -2.05)    # where the store's own front-row goods sat
 const COLUMNS = [-0.6, -0.2, 0.2, 0.6]   # inside the side panels

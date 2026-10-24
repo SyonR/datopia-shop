@@ -5,7 +5,7 @@ extends Area3D
 
 enum State { ALIVE, FLAT }
 
-const CLICKABLE = preload("res://clickable.gd")
+const CLICKABLE = preload("res://interact/clickable.gd")
 const MODEL = preload("res://models/characters/low_poly_rat.glb")
 const SIZE = Vector3(0.7, 0.3, 0.3)   # long along x; the model's nose points -x
 const FLOOR_Y = 0.075   # top of the floor tiles (physics floor is at 0, the tiles stick up)

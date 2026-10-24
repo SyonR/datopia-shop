@@ -1,4 +1,4 @@
-extends "res://quest_kit.gd"
+extends "res://missions/quest_kit.gd"
 
 # Mission 3: "Nothing to Stick It On" (insertion anomaly)
 # You're handed Argentina's capital, but capitals only live on product tags and
@@ -45,7 +45,7 @@ func on_cashier() -> void:
 			tag.clicked.connect(func(_n): shelf.pick(item))
 			item["note"] = "Capital: %s (reads the %s sign)" % [capital, country_name]
 			state = State.DONE
-			done = true
+			complete()
 			shelf.busy_handler = Callable()
 			say.emit("Cashier: Delivered! The new %s %s is on the shelf, and it already knows its capital, because it reads the sign.\n\nAll 3 missions complete!\nOne fact, one place. That's database normalization!" % [country_name, PRODUCT[0].to_lower()])
 		State.DONE:

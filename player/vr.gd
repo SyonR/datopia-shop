@@ -12,6 +12,7 @@ signal grip
 const RAY_LENGTH := 3.0
 const DEADZONE := 0.2
 const SNAP_TURN := PI / 6   # 30 degrees
+const DEBUG_BUTTONS := true   # show the last button name per hand on the HUD; turn off for release
 
 var xr: XRInterface
 var active := false
@@ -22,6 +23,7 @@ var ray: RayCast3D
 var panel: Label3D
 var button: Button
 var turned := false   # snap turn waits for the stick to return to center
+var last_button := {"left": "-", "right": "-"}   # for DEBUG_BUTTONS
 
 func _ready() -> void:
 	position = Vector3(0, -1, 0)   # the floor under the player's capsule
@@ -30,6 +32,7 @@ func _ready() -> void:
 	left = _controller("left_hand")
 	right = _controller("right_hand")
 	right.button_pressed.connect(_on_button)
+	left.button_pressed.connect(func(input_name): last_button.left = input_name)
 
 	# Laser pointer on the right hand (replaces the crosshair)
 	ray = RayCast3D.new()
@@ -104,6 +107,8 @@ func snap_turn() -> float:
 	return -SNAP_TURN * sign(x)
 
 func set_hud(text: String) -> void:
+	if DEBUG_BUTTONS:
+		text += "\n\n[debug] L: %s  R: %s" % [last_button.left, last_button.right]
 	if panel.text != text:
 		panel.text = text
 
@@ -115,6 +120,7 @@ func _controller(tracker: String) -> XRController3D:
 	return c
 
 func _on_button(input_name: String) -> void:
+	last_button.right = input_name
 	if input_name == "trigger_click":
 		trigger.emit()
 	elif input_name == "grip_click":

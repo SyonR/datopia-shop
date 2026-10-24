@@ -3,6 +3,7 @@ extends Node3D
 # Runs the cashier's missions in order. Each mission is its own script.
 
 signal say(text)
+signal mission_completed
 
 # Dev shortcut: press 1, 2 or 3 while playing to jump straight to that mission.
 # Set to false before exporting the game.
@@ -10,9 +11,9 @@ const DEV_MODE := true
 
 # [mission script, which country from the JSON]
 const MISSIONS = [
-	[preload("res://mission_mixed_crates.gd"), 0],   # Albania
-	[preload("res://mission_last_item.gd"), 1],      # Algeria
-	[preload("res://mission_no_item.gd"), 2],        # Argentina
+	[preload("res://missions/mission_mixed_crates.gd"), 0],   # Albania
+	[preload("res://missions/mission_last_item.gd"), 1],      # Algeria
+	[preload("res://missions/mission_no_item.gd"), 2],        # Argentina
 ]
 
 var countries: Array
@@ -66,4 +67,5 @@ func _create_missions() -> void:
 		m.shelf = shelf
 		m.setup(countries[entry[1]])
 		m.say.connect(say.emit)
+		m.completed.connect(mission_completed.emit)
 		missions.append(m)

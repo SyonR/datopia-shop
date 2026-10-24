@@ -1,4 +1,4 @@
-extends "res://clickable.gd"
+extends "res://interact/clickable.gd"
 
 # A shopper who walks along a path, waits, takes what you hand them, and walks
 # out. The Kenney mini-characters come rigged, with animations built in.

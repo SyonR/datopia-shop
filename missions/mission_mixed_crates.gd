@@ -1,4 +1,4 @@
-extends "res://quest_kit.gd"
+extends "res://missions/quest_kit.gd"
 
 # Mission 1: "The Mixed-Up Crates" (update anomaly)
 # Two crates each keep their own COPY of the current price, and both claim to
@@ -98,7 +98,7 @@ func _on_sign(_node) -> void:
 func _final_price_change() -> void:
 	_show_price(FINAL_PRICE)
 	state = State.DONE
-	done = true
+	complete()
 	say.emit("Cashier: Another price change! %s goods now cost %s.\n\nI changed it ONCE, on the sign... and BOTH crates show the new current price, because it lives in ONE place.\nOne fact, one place!\n\nTalk to me again for your next job." % [country_name, _money(FINAL_PRICE)])
 
 # The sign holds the price, and both crates point to it

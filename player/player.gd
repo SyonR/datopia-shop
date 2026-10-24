@@ -5,7 +5,7 @@ signal clicked_empty
 const SPEED = 4.0
 const JUMP_VELOCITY = 4.5
 const MOUSE_SENSITIVITY = 0.003
-const VR = preload("res://vr.gd")
+const VR = preload("res://player/vr.gd")
 
 @onready var camera: Camera3D = $Camera3D
 @onready var ray: RayCast3D = $Camera3D/RayCast3D
@@ -13,6 +13,7 @@ const VR = preload("res://vr.gd")
 var hovered: Node = null
 var vr: XROrigin3D
 var broom   # broom.gd, set by main; while it's out, clicks swing it
+var dialogue   # dialogue.gd, set by main; see _click for clicks while a line is typing
 var hand := Node3D.new()   # where a carried sticker sits
 
 func _ready() -> void:
@@ -35,10 +36,7 @@ func _unhandled_input(event: InputEvent) -> void:
 		camera.rotate_x(-event.relative.y * MOUSE_SENSITIVITY)
 		camera.rotation.x = clamp(camera.rotation.x, deg_to_rad(-80), deg_to_rad(80))
 
-	# Esc frees the mouse, clicking grabs it again
-	if event is InputEventKey and event.pressed and event.physical_keycode == KEY_ESCAPE:
-		Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
-
+	# Esc / Tab open the pause menu (ui/menu.gd), which frees the mouse; clicking grabs it again
 	if event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
 		if vr.active:
 			return
@@ -50,6 +48,11 @@ func _unhandled_input(event: InputEvent) -> void:
 func _click() -> void:
 	if broom and broom.equipped:
 		broom.try_swing()
+		return
+	# While a line is typing, clicking empty space or the cashier just shows the rest of it
+	# (so you can't skip the cashier's next line unread); clicks on anything else still work.
+	if dialogue and dialogue.is_typing() and (not is_instance_valid(hovered) or hovered.is_in_group("finishes_dialogue")):
+		dialogue.finish()
 		return
 	if is_instance_valid(hovered):
 		hovered.select()

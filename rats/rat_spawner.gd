@@ -4,7 +4,7 @@ extends Node3D
 # Rats are this node's children, so the count recovers by itself when one is
 # freed (smacked, timed out, or the scene reloads).
 
-const RAT = preload("res://rat.gd")
+const RAT = preload("res://rats/rat.gd")
 # Open floor, away from shelves, freezers, the counter and mission objects
 const SPAWN_POINTS = [
 	Vector3(0, 0, 7), Vector3(-6, 0, 7.5), Vector3(6, 0, 7),

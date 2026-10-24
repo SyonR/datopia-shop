@@ -5,7 +5,7 @@ extends Node
 # VR: right grip toggles; right trigger swings. The broom rides your left side.
 # While the broom is out, clicks swing instead of interacting. Put it away to interact.
 
-const CLICKABLE = preload("res://clickable.gd")
+const CLICKABLE = preload("res://interact/clickable.gd")
 const MODEL = preload("res://models/low_poly_broom.glb")
 const SMACK = preload("res://sounds/smack.mp3")
 const WALLS = 1 | 2   # store collision + the food shelf
@@ -25,6 +25,8 @@ var player
 var rats                     # rat_spawner.gd
 var grip := Node3D.new()     # the broom hangs from here; swings rotate it
 var slot := Button.new()
+var swatted := 0             # rats hit so far
+var counter := Label.new()   # shown above the slot
 var sound := AudioStreamPlayer.new()
 var swing: Tween
 var hitting := false         # only during the contact part of a swing
@@ -58,6 +60,16 @@ func setup(the_player, ui: CanvasLayer, rat_spawner) -> void:
 	slot.pressed.connect(toggle)
 	ui.add_child(slot)
 	_style_slot()
+
+	counter.add_theme_font_size_override("font_size", 18)
+	counter.add_theme_constant_override("outline_size", 6)
+	counter.add_theme_color_override("font_outline_color", Color.BLACK)
+	counter.set_anchors_and_offsets_preset(Control.PRESET_BOTTOM_RIGHT)
+	counter.grow_horizontal = Control.GROW_DIRECTION_BEGIN
+	counter.grow_vertical = Control.GROW_DIRECTION_BEGIN
+	counter.position -= Vector2(20, 70)   # just above the slot
+	ui.add_child(counter)
+	_update_counter()
 
 func toggle() -> void:
 	equipped = not equipped
@@ -110,6 +122,8 @@ func _check_hits() -> void:
 		hit_this_swing.append(rat)
 		if rat.hit():
 			sound.play(SMACK_START)
+			swatted += 1
+			_update_counter()
 
 func _cancel_swing() -> void:
 	if swing:
@@ -124,6 +138,9 @@ func _hold_in(parent: Node3D, offset: Vector3) -> void:
 		parent.add_child(grip)
 	grip.position = offset
 	grip.rotation = rest_degrees * PI / 180.0
+
+func _update_counter() -> void:
+	counter.text = "Rats swatted: %d" % swatted
 
 # The equipped slot gets a bright yellow border
 func _style_slot() -> void:
