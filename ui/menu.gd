@@ -4,7 +4,7 @@ extends CanvasLayer
 # (music included, since AudioStreamPlayers pause with the tree).
 # On the Datopia website, Fullscreen and Quit ask the page around the game
 # (ShopGame.tsx's window.shopGame), because the page owns the fullscreen shell.
-# Not shown in VR: a CanvasLayer isn't visible in the headset.
+# In VR, Y opens it on a floating screen instead (ui/vr_menu.gd), and the laser is the mouse.
 
 const CONTROLS = [
 	["WASD", "Move"],
@@ -13,19 +13,30 @@ const CONTROLS = [
 	["B", "Broom"],
 	["Tab / Esc", "Open this menu"],
 ]
+const CONTROLS_VR = [
+	["Left stick", "Move"],
+	["Right stick", "Turn"],
+	["Right trigger", "Interact"],
+	["Right grip", "Broom"],
+	["Y / B", "Open / close this menu"],
+]
 const BUTTON_WIDTH = 256
 
 var music      # music.gd
-var vr         # vr.gd; the menu stays closed in VR
+var vr         # vr.gd; in VR the menu opens on vr.menu_screen
 var is_open := false
 var was_captured := false   # to notice the browser freeing the mouse on Esc
 var opened_at := 0          # msec; the same Esc can arrive both as a key and as "mouse freed"
-var fullscreen_button := Button.new()
+var fullscreen_button := Button.new()   # "Exit VR" while in VR
+var controls_desktop: GridContainer
+var controls_vr: GridContainer
 var js_open   # keeps the window.shopOpenMenu callback alive
 
 func setup(the_music, the_vr) -> void:
 	music = the_music
 	vr = the_vr
+	vr.menu_pressed.connect(func(): close() if is_open else open())
+	vr.ended.connect(close)
 
 func _ready() -> void:
 	layer = 10   # above the game's UI
@@ -81,18 +92,12 @@ func _ready() -> void:
 	controls.set_anchors_and_offsets_preset(Control.PRESET_TOP_RIGHT)
 	controls.grow_horizontal = Control.GROW_DIRECTION_BEGIN
 	controls.position += Vector2(-24, 24)
-	var grid := GridContainer.new()
-	grid.columns = 2
-	grid.add_theme_constant_override("h_separation", 24)
-	for row in CONTROLS:
-		var key := Label.new()
-		key.text = row[0]
-		key.add_theme_color_override("font_color", Color(0.99, 0.88, 0.28))
-		grid.add_child(key)
-		var action := Label.new()
-		action.text = row[1]
-		grid.add_child(action)
-	controls.add_child(grid)
+	var stack := VBoxContainer.new()   # holds both lists; open() shows the one for this mode
+	controls_desktop = _controls_grid(CONTROLS)
+	controls_vr = _controls_grid(CONTROLS_VR)
+	stack.add_child(controls_desktop)
+	stack.add_child(controls_vr)
+	controls.add_child(stack)
 	add_child(controls)
 
 	hide()
@@ -103,13 +108,19 @@ func _ready() -> void:
 		JavaScriptBridge.get_interface("window").shopOpenMenu = js_open
 
 func open() -> void:
-	if is_open or vr.active:
+	if is_open:
 		return
 	is_open = true
 	opened_at = Time.get_ticks_msec()
 	get_tree().paused = true
-	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
-	fullscreen_button.text = "Exit Fullscreen" if _is_fullscreen() else "Fullscreen"
+	controls_desktop.visible = not vr.active
+	controls_vr.visible = vr.active
+	if vr.active:
+		fullscreen_button.text = "Exit VR"
+		vr.menu_screen.attach(self)
+	else:
+		Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+		fullscreen_button.text = "Exit Fullscreen" if _is_fullscreen() else "Fullscreen"
 	show()
 
 func close() -> void:
@@ -118,7 +129,9 @@ func close() -> void:
 	is_open = false
 	get_tree().paused = false
 	hide()
-	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
+	vr.menu_screen.detach()
+	if not vr.active:
+		Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
 
 func _input(event: InputEvent) -> void:
 	if event is InputEventKey and event.pressed and not event.echo \
@@ -133,7 +146,8 @@ func _input(event: InputEvent) -> void:
 func _process(_delta: float) -> void:
 	# In a browser, Esc frees the mouse without the game seeing the key: treat that as "open menu"
 	var captured := Input.mouse_mode == Input.MOUSE_MODE_CAPTURED
-	if was_captured and not captured and not is_open:
+	# (Entering VR frees the mouse too; that one doesn't count)
+	if was_captured and not captured and not is_open and not vr.active:
 		open()
 	was_captured = captured
 
@@ -181,7 +195,22 @@ func _add_volume(column: VBoxContainer, title: String, value: float, on_change: 
 	slider.value_changed.connect(func(v: float): percent.text = "%d%%" % roundi(v * 100))
 	column.add_child(slider)
 
+func _controls_grid(rows: Array) -> GridContainer:
+	var grid := GridContainer.new()
+	grid.columns = 2
+	grid.add_theme_constant_override("h_separation", 24)
+	for row in rows:
+		var key := Label.new()
+		key.text = row[0]
+		key.add_theme_color_override("font_color", Color(0.99, 0.88, 0.28))
+		grid.add_child(key)
+		var action := Label.new()
+		action.text = row[1]
+		grid.add_child(action)
+	return grid
+
 func _restart() -> void:
+	vr.menu_screen.detach()   # the menu has to be back in the scene to be freed with it
 	get_tree().paused = false
 	get_tree().reload_current_scene()
 
@@ -204,6 +233,10 @@ func _is_fullscreen() -> bool:
 	return DisplayServer.window_get_mode() == DisplayServer.WINDOW_MODE_FULLSCREEN
 
 func _toggle_fullscreen() -> void:
+	if vr.active:   # this button is "Exit VR" in the headset
+		close()
+		vr.exit()
+		return
 	if _in_website():
 		JavaScriptBridge.eval("window.parent.shopGame.toggleFullscreen()")
 		fullscreen_button.text = "Fullscreen" if _is_fullscreen() else "Exit Fullscreen"   # the browser switches a moment later

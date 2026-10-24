@@ -2,16 +2,19 @@ extends XROrigin3D
 
 # VR mode for the web build (WebXR, e.g. the Meta Quest browser).
 # Desktop controls keep working until the player presses "Enter VR".
-# Right trigger = click, left stick = walk, right stick = snap turn.
+# Right trigger = click, left stick = walk, right stick = snap turn, Y = pause menu.
+# (The Quest's ≡ button belongs to the browser: WebXR never hands it to the game.)
 
 signal started
 signal ended
 signal trigger
 signal grip
+signal menu_pressed
 
 const RAY_LENGTH := 3.0
 const DEADZONE := 0.2
 const SNAP_TURN := PI / 6   # 30 degrees
+const VR_MENU = preload("res://ui/vr_menu.gd")
 const DEBUG_BUTTONS := true   # show the last button name per hand on the HUD; turn off for release
 
 var xr: XRInterface
@@ -22,6 +25,7 @@ var right: XRController3D
 var ray: RayCast3D
 var panel: Label3D
 var button: Button
+var menu_screen   # vr_menu.gd: where the pause menu shows up in VR
 var turned := false   # snap turn waits for the stick to return to center
 var last_button := {"left": "-", "right": "-"}   # for DEBUG_BUTTONS
 
@@ -32,7 +36,12 @@ func _ready() -> void:
 	left = _controller("left_hand")
 	right = _controller("right_hand")
 	right.button_pressed.connect(_on_button)
-	left.button_pressed.connect(func(input_name): last_button.left = input_name)
+	right.button_released.connect(_on_released)
+	left.button_pressed.connect(_on_left_button)
+
+	menu_screen = VR_MENU.new()
+	menu_screen.setup(head, right)
+	add_child(menu_screen)
 
 	# Laser pointer on the right hand (replaces the crosshair)
 	ray = RayCast3D.new()
@@ -86,7 +95,7 @@ func setup(ui: CanvasLayer) -> void:
 
 # Left stick, relative to where your head faces
 func move_direction() -> Vector3:
-	var stick := left.get_vector2("primary")
+	var stick := _stick(left)
 	if stick.length() < DEADZONE:
 		return Vector3.ZERO
 	var forward := -head.global_basis.z
@@ -97,7 +106,7 @@ func move_direction() -> Vector3:
 
 # Right stick: -1 / 1 once per flick, 0 otherwise
 func snap_turn() -> float:
-	var x := right.get_vector2("primary").x
+	var x := _stick(right).x
 	if abs(x) < 0.6:
 		turned = false
 		return 0.0
@@ -106,9 +115,18 @@ func snap_turn() -> float:
 	turned = true
 	return -SNAP_TURN * sign(x)
 
+# WebXR calls the stick "thumbstick"; OpenXR action maps call it "primary".
+# Some browsers put it on "touchpad" instead, so take whichever one is moving.
+func _stick(hand: XRController3D) -> Vector2:
+	for input_name in ["thumbstick", "primary", "touchpad"]:
+		var v := hand.get_vector2(input_name)
+		if v != Vector2.ZERO:
+			return v
+	return Vector2.ZERO
+
 func set_hud(text: String) -> void:
 	if DEBUG_BUTTONS:
-		text += "\n\n[debug] L: %s  R: %s" % [last_button.left, last_button.right]
+		text += "\n\n[debug] L: %s  R: %s\nsticks L: %s  R: %s" % [last_button.left, last_button.right, _stick(left), _stick(right)]
 	if panel.text != text:
 		panel.text = text
 
@@ -121,10 +139,30 @@ func _controller(tracker: String) -> XRController3D:
 
 func _on_button(input_name: String) -> void:
 	last_button.right = input_name
+	if menu_screen.is_open():
+		if input_name == "trigger_click":
+			menu_screen.press(true)
+		elif input_name == "by_button":
+			menu_pressed.emit()   # B closes it too
+		return
 	if input_name == "trigger_click":
 		trigger.emit()
 	elif input_name == "grip_click":
 		grip.emit()
+
+func _on_released(input_name: String) -> void:
+	if input_name == "trigger_click" and menu_screen.is_open():
+		menu_screen.press(false)
+
+func _on_left_button(input_name: String) -> void:
+	last_button.left = input_name
+	if input_name in ["by_button", "menu_button"]:   # Y (menu_button in case a browser ever passes ≡ through)
+		menu_pressed.emit()
+
+# The menu's "Exit VR" button
+func exit() -> void:
+	if active:
+		xr.uninitialize()
 
 func _on_supported(mode: String, supported: bool) -> void:
 	if mode == "immersive-vr" and supported:
