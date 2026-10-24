@@ -17,7 +17,7 @@ const CONTROLS_VR = [
 	["Left stick", "Move"],
 	["Right stick", "Turn"],
 	["Right trigger", "Interact"],
-	["Right grip", "Broom"],
+	["Right grip", "Broom (swing your left hand)"],
 	["Y / B", "Open / close this menu"],
 ]
 const BUTTON_WIDTH = 256

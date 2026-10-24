@@ -2,7 +2,7 @@ extends XROrigin3D
 
 # VR mode for the web build (WebXR, e.g. the Meta Quest browser).
 # Desktop controls keep working until the player presses "Enter VR".
-# Right trigger = click, left stick = walk, right stick = snap turn, Y = pause menu.
+# Right trigger = click, left stick = walk, right stick = turn, Y = pause menu.
 # (The Quest's ≡ button belongs to the browser: WebXR never hands it to the game.)
 
 signal started
@@ -13,7 +13,7 @@ signal menu_pressed
 
 const RAY_LENGTH := 3.0
 const DEADZONE := 0.2
-const SNAP_TURN := PI / 6   # 30 degrees
+const TURN_SPEED := deg_to_rad(120)   # per second at full stick
 const VR_MENU = preload("res://ui/vr_menu.gd")
 const DEBUG_BUTTONS := true   # show the last button name per hand on the HUD; turn off for release
 
@@ -26,7 +26,6 @@ var ray: RayCast3D
 var panel: Label3D
 var button: Button
 var menu_screen   # vr_menu.gd: where the pause menu shows up in VR
-var turned := false   # snap turn waits for the stick to return to center
 var last_button := {"left": "-", "right": "-"}   # for DEBUG_BUTTONS
 
 func _ready() -> void:
@@ -104,16 +103,14 @@ func move_direction() -> Vector3:
 	side.y = 0
 	return (forward.normalized() * stick.y + side.normalized() * stick.x).limit_length(1.0)
 
-# Right stick: -1 / 1 once per flick, 0 otherwise
-func snap_turn() -> float:
+# Right stick: smooth turn, faster the further you push it (radians this frame)
+func turn(delta: float) -> float:
 	var x := _stick(right).x
-	if abs(x) < 0.6:
-		turned = false
+	if abs(x) < DEADZONE:
 		return 0.0
-	if turned:
-		return 0.0
-	turned = true
-	return -SNAP_TURN * sign(x)
+	# Rescale so turning starts gently just past the deadzone instead of jumping in
+	var amount: float = (abs(x) - DEADZONE) / (1.0 - DEADZONE)
+	return -sign(x) * amount * amount * TURN_SPEED * delta
 
 # WebXR calls the stick "thumbstick"; OpenXR action maps call it "primary".
 # Some browsers put it on "touchpad" instead, so take whichever one is moving.

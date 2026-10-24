@@ -2,7 +2,8 @@ extends Node
 
 # Optional fun, not part of the missions: a broom for smacking rats.
 # Desktop: B or the "Broom" slot toggles it; left click swings while it's out.
-# VR: right grip toggles; right trigger swings. The broom rides your left side.
+# VR: right grip toggles; the broom is in your left hand. Swing it at a rat for real,
+# or pull the right trigger for the same scripted swing as desktop.
 # While the broom is out, clicks swing instead of interacting. Put it away to interact.
 
 const CLICKABLE = preload("res://interact/clickable.gd")
@@ -19,6 +20,8 @@ const SMACK_LENGTH = 0.5   # then cut it, so the file's background hiss doesn't 
 @export var cooldown := 0.45       # between swing starts
 @export var reach := 1.4           # horizontal meters from your eyes to the nearest end of a rat
 @export var cone_degrees := 50.0   # half-angle in front of you
+@export var swat_speed := 1.5      # VR: m/s the bristles must move for a real swing to count
+@export var swat_radius := 0.35    # VR: how close the bristles must pass to a rat's center
 
 var equipped := false
 var player
@@ -32,6 +35,7 @@ var swing: Tween
 var hitting := false         # only during the contact part of a swing
 var hit_this_swing := []
 var wait := 0.0              # cooldown left
+var last_tip = null            # VR: bristle position last frame (relative to the body, so walking isn't swinging)
 
 func setup(the_player, ui: CanvasLayer, rat_spawner) -> void:
 	player = the_player
@@ -102,6 +106,10 @@ func _physics_process(delta: float) -> void:
 		sound.stop()
 	if hitting:
 		_check_hits()
+	if equipped and player.vr.active:
+		_check_swats(delta)
+	else:
+		last_tip = null
 
 # Rats in front of you, within reach, with no wall in between
 func _check_hits() -> void:
@@ -122,6 +130,23 @@ func _check_hits() -> void:
 		hit_this_swing.append(rat)
 		if rat.hit():
 			sound.play(SMACK_START)
+			swatted += 1
+			_update_counter()
+
+# VR: the bottom half of the broom hits any rat it sweeps through fast enough
+func _check_swats(delta: float) -> void:
+	var tip := grip.global_transform * Vector3(0, -length, 0)
+	var middle := grip.global_transform * Vector3(0, -length / 2, 0)
+	var body_tip: Vector3 = player.to_local(tip)
+	var moved: float = INF if last_tip == null else body_tip.distance_to(last_tip)
+	last_tip = body_tip
+	if moved == INF or moved / delta < swat_speed:
+		return
+	for rat in rats.alive():
+		var closest := Geometry3D.get_closest_point_to_segment(rat.global_position, middle, tip)
+		if closest.distance_to(rat.global_position) < swat_radius and rat.hit():
+			sound.play(SMACK_START)
+			player.vr.left.trigger_haptic_pulse("haptic", 0, 0.8, 0.15, 0)   # buzz the broom hand
 			swatted += 1
 			_update_counter()
 

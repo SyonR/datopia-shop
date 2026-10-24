@@ -90,7 +90,7 @@ func _physics_process(delta: float) -> void:
 	var dir := (transform.basis * Vector3(input.x, 0, input.y)).normalized()
 	if vr.active:
 		dir = vr.move_direction()
-		rotate_y(vr.snap_turn())
+		rotate_y(vr.turn(delta))
 	velocity.x = dir.x * SPEED
 	velocity.z = dir.z * SPEED
 
